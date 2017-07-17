@@ -100,7 +100,6 @@ class AddressMigration extends AbstractMigration {
 		$oTableCountry->addColumn('fkiAddressCountryId', 'integer', array('signed' => false))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('sIsoCode', 'string', array('length' => 5))
-					  ->addColumn('sDetaultName', 'string', array('length' => 255))
 					  ->addColumn('bDeleted', 'boolean')
 					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
@@ -166,7 +165,6 @@ class AddressMigration extends AbstractMigration {
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
 		$oTableCountry->addColumn('fkiAddressCityId', 'integer', array('signed' => false))
-					  ->addColumn('sName', 'string', array('length' => 255))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('bDeleted', 'boolean')
 					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
@@ -175,49 +173,52 @@ class AddressMigration extends AbstractMigration {
 					  ->addIndex('fkiAddressCityId')
 					  ->addIndex('bDeleted')
 					  ->create();
-	}
-
-	/**
-	 * @return void
-	 */
-	protected function CreateStreetGenericTables(){
-		$sEntityName = 'AddressStreetGeneric';
-
-		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
-					  ->addColumn('sCode', 'string', array('length' => 10))
-					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addIndex('bDeleted')
-					  ->addIndex('sCode')
-					  ->addIndex('fkiAddressStreetId')
-					  ->create();
 
 		$oTableName = $this->oGetNameTable($sEntityName);
 		$oTableName->create();
 	}
 
-	/**
-	 * @return void
-	 */
-	protected function CreateStreetCodeLinkTables(){
-		$sEntityName = 'AddressStreetGenericCodeLink';
-
-		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
-					  ->addColumn('sCode', 'string', array('length' => 10))
-					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addIndex('bDeleted')
-					  ->addIndex('sCode')
-					  ->addIndex('fkiAddressStreetId')
-					  ->create();
-
-		$oTableName = $this->oGetNameTable($sEntityName);
-		$oTableName->create();
-	}
+//	/**
+//	 * @return void
+//	 */
+//	protected function CreateStreetGenericTables(){
+//		$sEntityName = 'AddressStreetGeneric';
+//
+//		$oTableCountry = $this->table($sEntityName, array('signed' => false));
+//		$oTableCountry->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
+//					  ->addColumn('sCode', 'string', array('length' => 10))
+//					  ->addColumn('bDeleted', 'boolean')
+//					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+//					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+//					  ->addIndex('bDeleted')
+//					  ->addIndex('sCode')
+//					  ->addIndex('fkiAddressStreetId')
+//					  ->create();
+//
+//		$oTableName = $this->oGetNameTable($sEntityName);
+//		$oTableName->create();
+//	}
+//
+//	/**
+//	 * @return void
+//	 */
+//	protected function CreateStreetCodeLinkTables(){
+//		$sEntityName = 'AddressStreetGenericCodeLink';
+//
+//		$oTableCountry = $this->table($sEntityName, array('signed' => false));
+//		$oTableCountry->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
+//					  ->addColumn('sCode', 'string', array('length' => 10))
+//					  ->addColumn('bDeleted', 'boolean')
+//					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+//					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+//					  ->addIndex('bDeleted')
+//					  ->addIndex('sCode')
+//					  ->addIndex('fkiAddressStreetId')
+//					  ->create();
+//
+//		$oTableName = $this->oGetNameTable($sEntityName);
+//		$oTableName->create();
+//	}
 
 	/**
 	 * @return void
