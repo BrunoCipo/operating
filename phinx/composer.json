@@ -1,0 +1,9 @@
+{
+    "name": "metix/operating",
+    "description": "Metix/B-CITI operating systems",
+    "type": "project",
+    "require": {
+        "robmorgan/phinx": "^0.8.1",
+        "fzaninotto/faker": "^1.6"
+    }
+}
