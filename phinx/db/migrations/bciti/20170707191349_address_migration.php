@@ -51,18 +51,18 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'Address';
 
 		$oTableAddress = $this->table($sEntityName, array('signed' => false));
-		$oTableAddress->addColumn('fkiIdAddressCity', 'integer', array('signed' => false))
-					  ->addColumn('fkiIdAddressPostalCode', 'integer', array('signed' => false))
-					  ->addColumn('fkiIdAddressStreet', 'integer', array('signed' => false))
-					  ->addColumn('fkiIdAddressStreetNumber', 'integer', array('signed' => false))
+		$oTableAddress->addColumn('fkiAddressCityId', 'integer', array('signed' => false))
+					  ->addColumn('fkiAddressPostalCodeId', 'integer', array('signed' => false))
+					  ->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
+					  ->addColumn('fkiAddressStreetNumberId', 'integer', array('signed' => false))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('bDeleted')
-					  ->addIndex('fkiIdAddressCity')
-					  ->addIndex('fkiIdAddressPostalCode')
-					  ->addIndex('fkiIdAddressStreet')
-					  ->addIndex('fkiIdAddressStreetNumber')
+					  ->addIndex('fkiAddressCityId')
+					  ->addIndex('fkiAddressPostalCodeId')
+					  ->addIndex('fkiAddressStreetId')
+					  ->addIndex('fkiAddressStreetNumberId')
 					  ->create();
 	}
 
@@ -78,8 +78,8 @@ class AddressMigration extends AbstractMigration {
 					  ->addColumn('sIso3Code', 'string', array('length' => 3))
 					  ->addColumn('iNumericCode', 'integer', array('length' => 5, 'signed' => false))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('bDeleted')
 					  ->addIndex('sIso2Code', array('unique' => true))
 					  ->addIndex('sIso3Code', array('unique' => true))
@@ -97,15 +97,15 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressRegion';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddressCountry', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressCountryId', 'integer', array('signed' => false))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('sIsoCode', 'string', array('length' => 5))
 					  ->addColumn('sDetaultName', 'string', array('length' => 255))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('sCode')
-					  ->addIndex('fkiIdAddressCountry')
+					  ->addIndex('fkiAddressCountryId')
 					  ->addIndex('bDeleted')
 					  ->addIndex('sIsoCode', array('unique' => true))
 					  ->create();
@@ -121,17 +121,17 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressPostalCode';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddressCountry', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressCountryId', 'integer', array('signed' => false))
 					  ->addColumn('sZoneCode', 'string', array('length' => 10))
 					  ->addColumn('sPostalCode', 'string', array('length' => 20))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addIndex('fkiIdAddressCountry')
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addIndex('fkiAddressCountryId')
 					  ->addIndex('sZoneCode')
 					  ->addIndex('sPostalCode')
 					  ->addIndex('bDeleted')
-					  ->addIndex(array('fkiIdAddressCountry', 'sPostalCode'), array('unique' => true))
+					  ->addIndex(array('fkiAddressCountryId', 'sPostalCode'), array('unique' => true))
 					  ->create();
 	}
 
@@ -142,15 +142,15 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressCity';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddressCountry', 'integer', array('signed' => false))
-					  ->addColumn('fkiIdAddressRegion', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressCountryId', 'integer', array('signed' => false))
+					  ->addColumn('fkiAddressRegionId', 'integer', array('signed' => false))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('sCode')
-					  ->addIndex('fkiIdAddressCountry')
-					  ->addIndex('fkiIdAddressRegion')
+					  ->addIndex('fkiAddressCountryId')
+					  ->addIndex('fkiAddressRegionId')
 					  ->addIndex('bDeleted')
 					  ->create();
 
@@ -165,14 +165,14 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressStreet';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddressCity', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressCityId', 'integer', array('signed' => false))
 					  ->addColumn('sName', 'string', array('length' => 255))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('sCode')
-					  ->addIndex('fkiIdAddressCity')
+					  ->addIndex('fkiAddressCityId')
 					  ->addIndex('bDeleted')
 					  ->create();
 	}
@@ -184,14 +184,14 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressStreetGeneric';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddressStreet', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('bDeleted')
 					  ->addIndex('sCode')
-					  ->addIndex('fkiIdAddressStreet')
+					  ->addIndex('fkiAddressStreetId')
 					  ->create();
 
 		$oTableName = $this->oGetNameTable($sEntityName);
@@ -205,14 +205,14 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressStreetGenericCodeLink';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddressStreet', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressStreetId', 'integer', array('signed' => false))
 					  ->addColumn('sCode', 'string', array('length' => 10))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('bDeleted')
 					  ->addIndex('sCode')
-					  ->addIndex('fkiIdAddressStreet')
+					  ->addIndex('fkiAddressStreetId')
 					  ->create();
 
 		$oTableName = $this->oGetNameTable($sEntityName);
@@ -226,14 +226,14 @@ class AddressMigration extends AbstractMigration {
 		$sEntityName = 'AddressStreetNumber';
 
 		$oTableCountry = $this->table($sEntityName, array('signed' => false));
-		$oTableCountry->addColumn('fkiIdAddress', 'integer', array('signed' => false))
+		$oTableCountry->addColumn('fkiAddressId', 'integer', array('signed' => false))
 					  ->addColumn('sStreetNumber', 'string', array('length' => 50))
 					  ->addColumn('bDeleted', 'boolean')
-					  ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-					  ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+					  ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 					  ->addIndex('bDeleted')
 					  ->addIndex('sStreetNumber')
-					  ->addIndex('fkiIdAddress')
+					  ->addIndex('fkiAddressId')
 					  ->create();
 	}
 
@@ -246,15 +246,15 @@ class AddressMigration extends AbstractMigration {
 		$sFkiName = 'fkiId' . $sMainEntityName;
 		$oTableName = $this->table($sMainEntityName . 'Name', array('signed' => false));
 		$oTableName->addColumn($sFkiName, 'integer', array('signed' => false))
-				   ->addColumn('fkiIdLanguage', 'integer', array('signed' => false))
+				   ->addColumn('fkiLanguageId', 'integer', array('signed' => false))
 				   ->addColumn('sName', 'string', array('length' => MysqlAdapter::TEXT_SMALL))
 				   ->addColumn('bDeleted', 'boolean')
-				   ->addColumn('iDateCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
-				   ->addColumn('iDateModification', 'integer', array('signed' => 'false', 'null' => 'true'))
+				   ->addColumn('iCreation', 'integer', array('signed' => 'false', 'null' => 'true'))
+				   ->addColumn('iModification', 'integer', array('signed' => 'false', 'null' => 'true'))
 				   ->addIndex($sFkiName)
-				   ->addIndex('fkiIdLanguage')
+				   ->addIndex('fkiLanguageId')
 				   ->addIndex('bDeleted')
-				   ->addIndex(array($sFkiName, 'fkiIdLanguage'), array('unique' => true));
+				   ->addIndex(array($sFkiName, 'fkiLanguageId'), array('unique' => true));
 
 		return $oTableName;
 	}
