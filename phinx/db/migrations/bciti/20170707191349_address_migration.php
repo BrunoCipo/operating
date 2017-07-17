@@ -244,7 +244,7 @@ class AddressMigration extends AbstractMigration {
 	 * @return \Phinx\Db\Table
 	 */
 	protected function oGetNameTable($sMainEntityName){
-		$sFkiName = 'fkiId' . $sMainEntityName;
+		$sFkiName = 'fki' . $sMainEntityName. "Id";
 		$oTableName = $this->table($sMainEntityName . 'Name', array('signed' => false));
 		$oTableName->addColumn($sFkiName, 'integer', array('signed' => false))
 				   ->addColumn('fkiLanguageId', 'integer', array('signed' => false))
