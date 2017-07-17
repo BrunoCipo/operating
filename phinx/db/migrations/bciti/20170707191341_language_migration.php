@@ -59,8 +59,8 @@ class LanguageMigration
     protected function aGetLanguageConfigs()
     {
         return array(
-            array('name' => 'Français', 'code' => 'fre', 'locale' => 'fr_CA', 'iso2code' => 'fr', 'iso3code' => 'fra'),
-            array('name' => 'English', 'code' => 'eng', 'locale' => 'en_CA', 'iso2code' => 'en', 'iso3code' => 'eng')
+            array('sName' => 'Français', 'sCode' => 'fre', 'sLocale' => 'fr_CA', 'sIso2code' => 'fr', 'sIso3code' => 'fra'),
+            array('sName' => 'English', 'sCode' => 'eng', 'sLocale' => 'en_CA', 'sIso2code' => 'en', 'sIso3code' => 'eng')
         );
     }
 }
