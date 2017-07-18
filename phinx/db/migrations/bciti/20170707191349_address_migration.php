@@ -38,8 +38,8 @@ class AddressMigration extends AbstractMigration {
 		$this->CreatePostalCodeTables();
 		$this->CreateCityTables();
 		$this->CreateStreetTables();
-		$this->CreateStreetGenericTables();
-		$this->CreateStreetCodeLinkTables();
+//		$this->CreateStreetGenericTables();
+//		$this->CreateStreetCodeLinkTables();
 		$this->CreateStreetNumberTables();
 		$this->CreateAddressTable();
 	}

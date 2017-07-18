@@ -13,6 +13,8 @@ use Phinx\Migration\AbstractMigration;
 class LanguageMigration
     extends AbstractMigration
 {
+    private $LanguageTableName = 'Language';
+
     /**
      * Change Method.
      *
@@ -36,7 +38,7 @@ class LanguageMigration
      */
     public function change()
     {
-        $oTable = $this->table('Language', array('signed' => false));
+        $oTable = $this->table($this->LanguageTableName, array('signed' => false));
         $oTable->addColumn('sName', 'string', array('length' => 150))
             ->addColumn('sCode', 'string', array('length' => 5))
             ->addColumn('sLocale', 'string', array('length' => 5))
@@ -50,7 +52,7 @@ class LanguageMigration
             ->addIndex('sLocale', array('unique' => true))
             ->create();
 
-        $this->insert($oTable, $this->aGetLanguageConfigs());
+        $oTable->insert($this->aGetLanguageConfigs());
     }
 
     /**
@@ -59,8 +61,18 @@ class LanguageMigration
     protected function aGetLanguageConfigs()
     {
         return array(
-            array('sName' => 'Français', 'sCode' => 'fre', 'sLocale' => 'fr_CA', 'sIso2code' => 'fr', 'sIso3code' => 'fra'),
-            array('sName' => 'English', 'sCode' => 'eng', 'sLocale' => 'en_CA', 'sIso2code' => 'en', 'sIso3code' => 'eng')
+            array('sName'     => 'Français',
+                  'sCode'     => 'fre',
+                  'sLocale'   => 'fr_CA',
+                  'sIso2code' => 'fr',
+                  'sIso3code' => 'fra'
+            ),
+            array('sName'     => 'English',
+                  'sCode'     => 'eng',
+                  'sLocale'   => 'en_CA',
+                  'sIso2code' => 'en',
+                  'sIso3code' => 'eng'
+            )
         );
     }
 }
