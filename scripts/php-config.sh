@@ -22,19 +22,24 @@ then
     exit;
 fi
 
-if [[ $php_used == "$mamp_php_path"/php ]];
+if [[ -f $HOME/.zshrc ]];
+then
+    profile="$HOME/.zshrc";
+else
+    profile="$HOME/.bash_profile";
+fi
+
+if [[ $php_used == "$mamp_php_path"php ]];
 then
     echo 'PHP-Cli is already conrectly configured';
 else
-    if [[ -f $HOME/.zshrc ]];
-    then
-        profile="$HOME/.zshrc";
-    else
-        profile="$HOME/.bash_profile";
-    fi
-    
     echo "# Add PHP to PATH for Composer" >> $profile;
     echo "export PATH=\"$mamp_php_path:\$PATH\"" >> $profile;
 
     echo "PHP-Cli have been configured in $profile file";
+fi
+
+if ! [ -x phinx ]; then
+    echo "alias phinx='php vendor/bin/phinx'" >> $profile;
+    echo "Command (alias) 'phinx' have been added in $profile file, please reload your terminal.";
 fi
