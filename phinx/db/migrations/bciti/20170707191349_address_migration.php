@@ -211,7 +211,9 @@ class AddressMigration
      */
     protected function oGetNameTable($sMainEntityName)
     {
-        $sFkiName   = 'fki' . $sMainEntityName . "Id";
+        $sFkiName        = 'fki' . $sMainEntityName . "Id";
+        $entitySnakeCase = strtolower(preg_replace('/(?<!^)[A-Z]/', '_$0', $sMainEntityName));
+
         $oTableName = $this->table($sMainEntityName . 'Name', array('signed' => false));
         $oTableName->addColumn($sFkiName, 'biginteger', array('signed' => false))
             ->addColumn('fkiLanguageId', 'biginteger', array('signed' => false))
@@ -219,10 +221,11 @@ class AddressMigration
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
-            ->addIndex($sFkiName)
+            ->addIndex($sFkiName, array('name' => 'idx_' . $entitySnakeCase))
             ->addIndex('fkiLanguageId', array('name' => 'idx_language'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
-            ->addIndex(array($sFkiName, 'fkiLanguageId'), array('unique' => true, 'name' => 'uq_name_language'));
+            ->addIndex(array($sFkiName, 'fkiLanguageId'),
+                array('unique' => true, 'name' => 'uq_name_' . $entitySnakeCase));
 
         return $oTableName;
     }
