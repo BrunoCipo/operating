@@ -52,7 +52,7 @@ class LanguageMigration
             ->addIndex('sLocale', array('unique' => true))
             ->create();
 
-        $oTable->insert($this->aGetLanguageConfigs());
+        $this->insert($oTable, $this->aGetLanguageConfigs());
     }
 
     /**
