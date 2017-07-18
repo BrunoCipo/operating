@@ -47,9 +47,9 @@ class LanguageMigration
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
-            ->addIndex('bDeleted')
-            ->addIndex('sCode', array('unique' => true))
-            ->addIndex('sLocale', array('unique' => true))
+            ->addIndex('bDeleted', array('name' => 'idx_deleted'))
+            ->addIndex('sCode', array('unique' => true, 'name' => 'uq_code'))
+            ->addIndex('sLocale', array('unique' => true, 'name' => 'uq_locale'))
             ->create();
 
         $this->insert($oTable, $this->aGetLanguageConfigs());
@@ -61,17 +61,19 @@ class LanguageMigration
     protected function aGetLanguageConfigs()
     {
         return array(
-            array('sName'     => 'Français',
-                  'sCode'     => 'fre',
-                  'sLocale'   => 'fr_CA',
-                  'sIso2code' => 'fr',
-                  'sIso3code' => 'fra'
+            array(
+                'sName'     => 'Français',
+                'sCode'     => 'fre',
+                'sLocale'   => 'fr_CA',
+                'sIso2code' => 'fr',
+                'sIso3code' => 'fra'
             ),
-            array('sName'     => 'English',
-                  'sCode'     => 'eng',
-                  'sLocale'   => 'en_CA',
-                  'sIso2code' => 'en',
-                  'sIso3code' => 'eng'
+            array(
+                'sName'     => 'English',
+                'sCode'     => 'eng',
+                'sLocale'   => 'en_CA',
+                'sIso2code' => 'en',
+                'sIso3code' => 'eng'
             )
         );
     }
