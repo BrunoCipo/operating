@@ -1,0 +1,132 @@
+[
+  {
+    "eng": "Aargau",
+    "fre": "Argovie",
+    "code": "CH-AG"
+  },
+  {
+    "eng": "Appenzell Ausserrhoden",
+    "fre": "Appenzell Rhodes-Extérieures",
+    "code": "CH-AR"
+  },
+  {
+    "eng": "Appenzell Innerrhoden",
+    "fre": "Appenzell Rhodes-Intérieures",
+    "code": "CH-AI"
+  },
+  {
+    "eng": "Basel-Landschaft",
+    "fre": "Bâle-Campagne",
+    "code": "CH-BL"
+  },
+  {
+    "eng": "Basel-Stadt",
+    "fre": "Bâle-Ville",
+    "code": "CH-BS"
+  },
+  {
+    "eng": "Bern",
+    "fre": "Berne",
+    "code": "CH-BE"
+  },
+  {
+    "eng": "Freiburg",
+    "fre": "Fribourg",
+    "code": "CH-FR"
+  },
+  {
+    "eng": "Genève",
+    "fre": "Genève",
+    "code": "CH-GE"
+  },
+  {
+    "eng": "Glarus",
+    "fre": "Glaris",
+    "code": "CH-GL"
+  },
+  {
+    "eng": "Graubünden",
+    "fre": "Grisons",
+    "code": "CH-GR"
+  },
+  {
+    "eng": "Jura",
+    "fre": "Jura",
+    "code": "CH-JU"
+  },
+  {
+    "eng": "Luzern",
+    "fre": "Lucerne",
+    "code": "CH-LU"
+  },
+  {
+    "eng": "Neuenburg",
+    "fre": "Neuchâtel",
+    "code": "CH-NE"
+  },
+  {
+    "eng": "Nidwalden",
+    "fre": "Nidwald",
+    "code": "CH-NW"
+  },
+  {
+    "eng": "Obwalden",
+    "fre": "Obwald",
+    "code": "CH-OW"
+  },
+  {
+    "eng": "Sankt Gallen",
+    "fre": "Saint-Gall",
+    "code": "CH-SG"
+  },
+  {
+    "eng": "Schaffhausen",
+    "fre": "Schaffhouse",
+    "code": "CH-SH"
+  },
+  {
+    "eng": "Schwyz",
+    "fre": "Schwytz",
+    "code": "CH-SZ"
+  },
+  {
+    "eng": "Solothurn",
+    "fre": "Soleure",
+    "code": "CH-SO"
+  },
+  {
+    "eng": "Thurgau",
+    "fre": "Thurgovie",
+    "code": "CH-TG"
+  },
+  {
+    "eng": "Ticino",
+    "fre": "Tessin",
+    "code": "CH-TI"
+  },
+  {
+    "eng": "Uri",
+    "fre": "Uri",
+    "code": "CH-UR"
+  },
+  {
+    "eng": "Wallis",
+    "fre": "Valais",
+    "code": "CH-VS"
+  },
+  {
+    "eng": "Vaud",
+    "fre": "Vaud",
+    "code": "CH-VD"
+  },
+  {
+    "eng": "Zug",
+    "fre": "Zoug",
+    "code": "CH-ZG"
+  },
+  {
+    "eng": "Zürich",
+    "fre": "Zurich",
+    "code": "CH-ZH"
+  }
+]

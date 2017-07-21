@@ -1,0 +1,82 @@
+[
+  {
+    "eng": "Baden-Württemberg",
+    "fre": "Bade-Wurtemberg",
+    "code": "DE-BW"
+  },
+  {
+    "eng": "Bayern",
+    "fre": "Bavière",
+    "code": "DE-BY"
+  },
+  {
+    "eng": "Berlin",
+    "fre": "Berlin",
+    "code": "DE-BE"
+  },
+  {
+    "eng": "Brandenburg",
+    "fre": "Brandebourg",
+    "code": "DE-BB"
+  },
+  {
+    "eng": "Bremen",
+    "fre": "Brême",
+    "code": "DE-HB"
+  },
+  {
+    "eng": "Hamburg",
+    "fre": "Hamburg",
+    "code": "DE-HH"
+  },
+  {
+    "eng": "Hessen",
+    "fre": "Hesse",
+    "code": "DE-HE"
+  },
+  {
+    "eng": "Mecklenburg-Vorpommern",
+    "fre": "Mecklenbourg-Poméranie-Occidentale",
+    "code": "DE-MV"
+  },
+  {
+    "eng": "Niedersachsen",
+    "fre": "Basse-Saxe",
+    "code": "DE-NI"
+  },
+  {
+    "eng": "Nordrhein-Westfalen",
+    "fre": "Rhénanie-du-Nord-Westphalie",
+    "code": "DE-NW"
+  },
+  {
+    "eng": "Rheinland-Pfalz",
+    "fre": "Rhénanie-Palatinat",
+    "code": "DE-RP"
+  },
+  {
+    "eng": "Saarlaand",
+    "fre": "Sarre",
+    "code": "DE-SL"
+  },
+  {
+    "eng": "Sachsen",
+    "fre": "Saxe",
+    "code": "DE-SN"
+  },
+  {
+    "eng": "Sachsen-Anhalt",
+    "fre": "Saxe-Anhalt",
+    "code": "DE-ST"
+  },
+  {
+    "eng": "Schleswig-Holstein",
+    "fre": "Schleswig-Holstein",
+    "code": "DE-SH"
+  },
+  {
+    "eng": "Thüringen",
+    "fre": "Thuringe",
+    "code": "DE-TH"
+  }
+]

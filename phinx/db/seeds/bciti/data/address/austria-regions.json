@@ -1,0 +1,48 @@
+
+[
+  {
+    "eng": "Burgenland",
+    "fre": "Burgenland",
+    "code": "AT-1"
+  },
+  {
+    "eng": "Kärnten",
+    "fre": "Carinthie",
+    "code": "AT-2"
+  },
+  {
+    "eng": "Niederösterreich",
+    "fre": "Basse-Autriche",
+    "code": "AT-3"
+  },
+  {
+    "eng": "Oberösterreich",
+    "fre": "Haute-Autriche",
+    "code": "AT-4"
+  },
+  {
+    "eng": "Salzburg",
+    "fre": "Salzbourg",
+    "code": "AT-5"
+  },
+  {
+    "eng": "Steiermark",
+    "fre": "Styrie",
+    "code": "AT-6"
+  },
+  {
+    "eng": "Tirol",
+    "fre": "Tyrol",
+    "code": "AT-7"
+  },
+  {
+    "eng": "Vorarlberg",
+    "fre": "Vorarlberg",
+    "code": "AT-8"
+  },
+  {
+    "eng": "Wien",
+    "fre": "Vienne",
+    "code": "AT-9"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "eng": "Alberta",
+    "code": "CA-AB",
+    "subdivision": "province",
+    "fre": "Alberta"
+  },
+  {
+    "eng": "British Columbia",
+    "code": "CA-BC",
+    "subdivision": "province",
+    "fre": "Colombie-Britannique"
+  },
+  {
+    "eng": "Manitoba",
+    "code": "CA-MB",
+    "subdivision": "province",
+    "fre": "Manitoba"
+  },
+  {
+    "eng": "New Brunswick",
+    "code": "CA-NB",
+    "subdivision": "province",
+    "fre": "Nouveau-Brunswick"
+  },
+  {
+    "eng": "Newfoundland and Labrador",
+    "code": "CA-NL",
+    "subdivision": "province",
+    "fre": "Terre-Neuve-et-Labrador"
+  },
+  {
+    "eng": "Nova Scotia",
+    "code": "CA-NS",
+    "subdivision": "province",
+    "fre": "Nouvelle-Écosse"
+  },
+  {
+    "eng": "Ontario",
+    "code": "CA-ON",
+    "subdivision": "province",
+    "fre": "Ontario"
+  },
+  {
+    "eng": "Prince Edward Island",
+    "code": "CA-PE",
+    "subdivision": "province",
+    "fre": "Île-du-Prince-Édouard"
+  },
+  {
+    "eng": "Quebec",
+    "code": "CA-QC",
+    "subdivision": "province",
+    "fre": "Québec"
+  },
+  {
+    "eng": "Saskatchewan",
+    "code": "CA-SK",
+    "subdivision": "province",
+    "fre": "Saskatchewan"
+  },
+  {
+    "eng": "Northwest Territories",
+    "code": "CA-NT",
+    "subdivision": "territory",
+    "fre": "Territoires du Nord-Ouest"
+  },
+  {
+    "eng": "Nunavut",
+    "code": "CA-NU",
+    "subdivision": "territory",
+    "fre": "Nunavut"
+  },
+  {
+    "eng": "Yukon",
+    "code": "CA-YT",
+    "subdivision": "territory",
+    "fre": "Yukon"
+  }
+]
