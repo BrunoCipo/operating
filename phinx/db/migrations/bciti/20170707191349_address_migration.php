@@ -109,7 +109,6 @@ class AddressMigration
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addIndex('fkiAddressCountryId', array('name' => 'idx_address_country'))
 					  ->addIndex('fkiAddressCityId')
-            ->addIndex('sZoneCode', array('name' => 'idx_zone_code'))
             ->addIndex('sPostalCode', array('name' => 'idx_postal_code'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->addIndex(array('fkiAddressCountryId', 'sPostalCode'),

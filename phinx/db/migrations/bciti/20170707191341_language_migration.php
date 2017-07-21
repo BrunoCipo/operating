@@ -36,7 +36,7 @@ class LanguageMigration
      * Remember to call "create()" or "update()" and NOT "save()" when working
      * with the Table class.
      */
-    public function change()
+    public function up()
     {
         $oTable = $this->table($this->LanguageTableName, array('signed' => false));
         $oTable->addColumn('sName', 'string', array('length' => 150))
@@ -55,7 +55,11 @@ class LanguageMigration
         $this->insert($oTable, $this->aGetLanguageConfigs());
     }
 
-    /**
+    public function down(){
+		$this->dropTable('Language');
+	}
+
+	/**
      * @return array
      */
     protected function aGetLanguageConfigs()
