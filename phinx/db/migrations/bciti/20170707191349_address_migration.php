@@ -125,7 +125,7 @@ class AddressMigration
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
         $oTableCountry->addColumn('fkiAddressCountryId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressRegionId', 'biginteger', array('signed' => false))
+            ->addColumn('fkiAddressRegionId', 'biginteger', array('signed' => false, 'null' => 'true'))
             ->addColumn('sCode', 'string', array('length' => 10))
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
