@@ -112,7 +112,7 @@ class AddressSeeder extends AbstractSeed
                             'iModification' => time()
                         ];
 
-                        $aStreetNumberData[] = $this->createStreetNumber($iAddressId, $iStreetId, $k);
+                        $aStreetNumberData[] = $this->createStreetNumber($iStreetId, $k);
 
                         $iStreetNumberId++;
                         $iAddressId++;
@@ -132,7 +132,7 @@ class AddressSeeder extends AbstractSeed
         $oAddressStreet = $this->table('AddressStreet');
         $oAddressStreetNames = $this->table('AddressStreetName');
         $oAddressStreetNumbers = $this->table('AddressStreetNumber');
-        $oAddress = $this->table('Address');
+        $oAddress = $this->table('AddressBase');
 
 
         $oAddressCity->insert($aCityData)->save();
@@ -146,10 +146,9 @@ class AddressSeeder extends AbstractSeed
         $oAddress->insert($aAddressData)->save();
     }
 
-    private function createStreetNumber($iAddressId, $iStreetId, $iNumber)
+    private function createStreetNumber( $iStreetId, $iNumber)
     {
         return [
-            'fkiAddressId' => $iAddressId,
             'fkiAddressStreetId' => $iStreetId,
             'sStreetNumber' => $iNumber,
             'bDeleted' => 0,

@@ -167,7 +167,7 @@ class AddressMigration
      */
     protected function CreateAddressTable()
     {
-        $sEntityName = 'Address';
+        $sEntityName = 'AddressBase';
 
         $oTableAddress = $this->table($sEntityName, array('signed' => false));
         $oTableAddress->addColumn('fkiAddressCityId', 'biginteger', array('signed' => false))
@@ -193,14 +193,13 @@ class AddressMigration
         $sEntityName = 'AddressStreetNumber';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('fkiAddressId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressStreetId', 'biginteger', array('signed' => false))
+        $oTableCountry->addColumn('fkiAddressStreetId', 'biginteger', array('signed' => false))
 		  	->addColumn('sStreetNumber', 'string', array('length' => 50))
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addIndex('sStreetNumber', array('name' => 'idx_street_number'))
-            ->addIndex('fkiAddressId', array('name' => 'idx_address'))
+            ->addIndex('fkiAddressStreetId', array('name' => 'idx_address'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->create();
     }
