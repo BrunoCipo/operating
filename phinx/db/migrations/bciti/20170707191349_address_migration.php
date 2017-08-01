@@ -201,6 +201,8 @@ class AddressMigration
             ->addIndex('sStreetNumber', array('name' => 'idx_street_number'))
             ->addIndex('fkiAddressStreetId', array('name' => 'idx_address'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
+            ->addIndex(array('fkiAddressStreetId', 'sStreetNumber'),
+                array('unique' => true, 'name' => 'uq_street_street_number'))
             ->create();
     }
 
