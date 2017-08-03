@@ -194,7 +194,9 @@ class AddressMigration
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
         $oTableCountry->addColumn('fkiAddressStreetId', 'biginteger', array('signed' => false))
-		  	->addColumn('sStreetNumber', 'string', array('length' => 50))
+            ->addColumn('sStreetNumber', 'string', array('length' => 50))
+            ->addColumn('dLatitude', 'decimal', array('signed' => 'true',''))
+            ->addColumn('dLongitude', 'decimal', array('signed' => 'true',''))
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
