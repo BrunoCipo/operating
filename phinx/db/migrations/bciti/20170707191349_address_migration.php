@@ -195,12 +195,14 @@ class AddressMigration
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
         $oTableCountry->addColumn('fkiAddressStreetId', 'biginteger', array('signed' => false))
             ->addColumn('sStreetNumber', 'string', array('length' => 50))
-            ->addColumn('dLatitude', 'decimal', array('signed' => 'true',''))
-            ->addColumn('dLongitude', 'decimal', array('signed' => 'true',''))
+            ->addColumn('dLatitude', 'decimal', array('signed' => 'true', 'precision' => 16, 'scale' => 13))
+            ->addColumn('dLongitude', 'decimal', array('signed' => 'true', 'precision' => 16, 'scale' => 13))
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addIndex('sStreetNumber', array('name' => 'idx_street_number'))
+            ->addIndex('dLatitude', array('name' => 'idx_latitude'))
+            ->addIndex('dLongitude', array('name' => 'idx_longitude'))
             ->addIndex('fkiAddressStreetId', array('name' => 'idx_address'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->addIndex(array('fkiAddressStreetId', 'sStreetNumber'),
