@@ -8,6 +8,7 @@
 
 use Phinx\Migration\AbstractMigration;
 use Phinx\Db\Adapter\MysqlAdapter;
+use Phinx\Db\Table\Index;
 
 class AddressMigration
     extends AbstractMigration
@@ -225,7 +226,7 @@ class AddressMigration
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
-            ->addIndex($sFkiName, array('name' => 'idx_' . $entitySnakeCase))
+            ->addIndex($sFkiName, array('name' => 'idx_' . $entitySnakeCase),  ['type' => Index::FULLTEXT])
             ->addIndex('fkiLanguageId', array('name' => 'idx_language'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->addIndex(array($sFkiName, 'fkiLanguageId'),
