@@ -228,7 +228,7 @@ class AddressMigration
             ->addColumn('bDeleted', 'boolean')
             ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
             ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
-            ->addIndex($sFkiName, array('name' => 'idx_' . $entitySnakeCase),  ['type' => Index::FULLTEXT])
+            ->addIndex($sFkiName, array('name' => 'ft_name'),  ['type' => Index::FULLTEXT])
             ->addIndex('fkiLanguageId', array('name' => 'idx_language'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->addIndex(array($sFkiName, 'fkiLanguageId'),
