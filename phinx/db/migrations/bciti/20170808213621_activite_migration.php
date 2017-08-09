@@ -43,8 +43,8 @@ class ActiviteMigration extends AbstractMigration{
 
 		$oTable = $this->table($sEntityName, array('signed' => false));
 		$oTable->addColumn('fkiOrganisationId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('sNom', MysqlAdapter::PHINX_TYPE_STRING, array('length' => MysqlAdapter::TEXT_REGULAR))
-				->addColumn('sDescription', MysqlAdapter::PHINX_TYPE_STRING, array('length' => MysqlAdapter::TEXT_REGULAR))
+				->addColumn('sNom', MysqlAdapter::PHINX_TYPE_TEXT)
+				->addColumn('sDescription', MysqlAdapter::PHINX_TYPE_TEXT)
 				->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false))
 				->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 				->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
@@ -62,7 +62,7 @@ class ActiviteMigration extends AbstractMigration{
 
 		$oTable = $this->table($sEntityName, array('signed' => false));
 		$oTable->addColumn('fkiActiviteId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('sAdresseDescription', MysqlAdapter::PHINX_TYPE_STRING, array('length' => MysqlAdapter::TEXT_REGULAR))
+				->addColumn('sAdresseDescription', MysqlAdapter::PHINX_TYPE_TEXT)
 				->addColumn('sAdresseNumeroCivique', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 15))
 				->addColumn('sAdressePorte', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10))
 				->addColumn('sAdresseRue', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 100))

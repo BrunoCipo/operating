@@ -28,5 +28,40 @@ class ParkingMigration extends AbstractMigration{
 	 */
 	public function change(){
 
+		$this->vCreateParkingAreaTable();
+		$this->vCreateParkingAreaPeriodTable();
+		$this->vCreateParkingAreaRateTable();
+		$this->vCreateParkingAreaZoneTable();
+		$this->vCreateParkingBankPlanTable();
+		$this->vCreateParkingBankTransactionTable();
+		$this->vCreateParkingReservationTable();
+	}
+
+	protected function vCreateParkingAreaTable(){
+
+	}
+
+	protected function vCreateParkingAreaPeriodTable(){
+
+	}
+
+	protected function vCreateParkingAreaRateTable(){
+
+	}
+
+	protected function vCreateParkingAreaZoneTable(){
+
+	}
+
+	protected function vCreateParkingBankPlanTable(){
+
+	}
+
+	protected function vCreateParkingBankTransactionTable(){
+
+	}
+
+	protected function vCreateParkingReservationTable(){
+
 	}
 }

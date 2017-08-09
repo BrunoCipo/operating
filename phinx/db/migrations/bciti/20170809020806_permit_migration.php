@@ -28,5 +28,75 @@ class PermitMigration extends AbstractMigration{
 	 */
 	public function change(){
 
+		$this->vCreatePermitTable();
+		$this->vCreatePermitApplicationTable();
+		$this->vCreatePermitApplicationDocumentTable();
+		$this->vCreatePermitApplicationInternalStateTable();
+		$this->vCreatePermitApplicationRelatedObjectTable();
+		$this->vCreatePermitApplicationStateTable();
+		$this->vCreatePermitCategoryTable();
+		$this->vCreatePermitPermissionTable();
+		$this->vCreatePermitPermissionZoneTable();
+		$this->vCreatePermitSubscriptionTable();
+		$this->vCreatePermitSubscriptionInternalStateTable();
+		$this->vCreatePermitSubscriptionRelatedObjectTable();
+		$this->vCreatePermitSubscriptionStateTable();
+		$this->vCreatePermitWaitingListConfigTable();
+	}
+
+	protected function vCreatePermitTable(){
+
+	}
+
+	protected function vCreatePermitApplicationTable(){
+		
+	}
+
+	protected function vCreatePermitApplicationDocumentTable(){
+
+	}
+
+	protected function vCreatePermitApplicationInternalStateTable(){
+
+	}
+
+	protected function vCreatePermitApplicationRelatedObjectTable(){
+
+	}
+
+	protected function vCreatePermitApplicationStateTable(){
+
+	}
+
+	protected function vCreatePermitCategoryTable(){
+
+	}
+
+	protected function vCreatePermitPermissionTable(){
+
+	}
+
+	protected function vCreatePermitPermissionZoneTable(){
+
+	}
+
+	protected function vCreatePermitSubscriptionTable(){
+
+	}
+
+	protected function vCreatePermitSubscriptionInternalStateTable(){
+
+	}
+
+	protected function vCreatePermitSubscriptionRelatedObjectTable(){
+
+	}
+
+	protected function vCreatePermitSubscriptionStateTable(){
+
+	}
+
+	protected function vCreatePermitWaitingListConfigTable(){
+
 	}
 }
