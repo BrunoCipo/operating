@@ -135,6 +135,8 @@ class AddressMigration
             ->addIndex('fkiAddressCountryId', array('name' => 'idx_address_country'))
             ->addIndex('fkiAddressRegionId', array('name' => 'idx_address_region'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
+			->addIndex(array('fkiAddressCountryId', 'fkiAddressRegionId', 'sCode'),
+				array('unique' => true, 'name' => 'uq_country_region_code'))
             ->create();
 
         $oTableName = $this->oGetNameTable($sEntityName);
