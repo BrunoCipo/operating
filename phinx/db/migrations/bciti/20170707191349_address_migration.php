@@ -53,13 +53,13 @@ class AddressMigration
         $sEntityName = 'AddressCountry';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('sDefaultName', 'string', array('length' => 150))
-            ->addColumn('sIso2Code', 'string', array('length' => 2))
-            ->addColumn('sIso3Code', 'string', array('length' => 3))
-            ->addColumn('iNumericCode', 'biginteger', array('length' => 5, 'signed' => false))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableCountry->addColumn('sDefaultName', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 150))
+            ->addColumn('sIso2Code', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 2))
+            ->addColumn('sIso3Code', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 3))
+            ->addColumn('iNumericCode', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('length' => 5, 'signed' => false))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_STRING, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->addIndex('sIso2Code', array('unique' => true, 'name' => 'uq_iso_2_code'))
             ->addIndex('sIso3Code', array('unique' => true, 'name' => 'uq_iso_3_code'))
@@ -78,12 +78,12 @@ class AddressMigration
         $sEntityName = 'AddressRegion';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('fkiAddressCountryId', 'biginteger', array('signed' => false))
-            ->addColumn('sCode', 'string', array('length' => 10))
-            ->addColumn('sIsoCode', 'string', array('length' => 5))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableCountry->addColumn('fkiAddressCountryId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('sCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10))
+            ->addColumn('sIsoCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 5))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('sCode', array('name' => 'idx_code'))
             ->addIndex('fkiAddressCountryId', array('name' => 'idx_address_country'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
@@ -102,12 +102,12 @@ class AddressMigration
         $sEntityName = 'AddressPostalCode';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('fkiAddressCountryId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressCityId', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('sPostalCode', 'string', array('length' => 20))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableCountry->addColumn('fkiAddressCountryId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('fkiAddressCityId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('sPostalCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 20))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('fkiAddressCountryId', array('name' => 'idx_address_country'))
 					  ->addIndex('fkiAddressCityId')
             ->addIndex('sPostalCode', array('name' => 'idx_postal_code'))
@@ -125,12 +125,12 @@ class AddressMigration
         $sEntityName = 'AddressCity';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('fkiAddressCountryId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressRegionId', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('sCode', 'string', array('length' => 10))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableCountry->addColumn('fkiAddressCountryId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('fkiAddressRegionId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('sCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('sCode', array('name' => 'idx_code'))
             ->addIndex('fkiAddressCountryId', array('name' => 'idx_address_country'))
             ->addIndex('fkiAddressRegionId', array('name' => 'idx_address_region'))
@@ -149,11 +149,11 @@ class AddressMigration
         $sEntityName = 'AddressStreet';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('fkiAddressCityId', 'biginteger', array('signed' => false))
-            ->addColumn('sCode', 'string', array('length' => 10))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableCountry->addColumn('fkiAddressCityId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('sCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('sCode', array('name' => 'idx_code'))
             ->addIndex('fkiAddressCityId', array('name' => 'idx_address_city'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
@@ -171,13 +171,13 @@ class AddressMigration
         $sEntityName = 'AddressBase';
 
         $oTableAddress = $this->table($sEntityName, array('signed' => false));
-        $oTableAddress->addColumn('fkiAddressCityId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressPostalCodeId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressStreetId', 'biginteger', array('signed' => false))
-            ->addColumn('fkiAddressStreetNumberId', 'biginteger', array('signed' => false))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableAddress->addColumn('fkiAddressCityId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('fkiAddressPostalCodeId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('fkiAddressStreetId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('fkiAddressStreetNumberId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('fkiAddressCityId', array('name' => 'idx_address_city'))
             ->addIndex('fkiAddressPostalCodeId', array('name' => 'idx_postal_code'))
             ->addIndex('fkiAddressStreetId', array('name' => 'idx_address_street'))
@@ -194,13 +194,13 @@ class AddressMigration
         $sEntityName = 'AddressStreetNumber';
 
         $oTableCountry = $this->table($sEntityName, array('signed' => false));
-        $oTableCountry->addColumn('fkiAddressStreetId', 'biginteger', array('signed' => false))
-            ->addColumn('sStreetNumber', 'string', array('length' => 50))
+        $oTableCountry->addColumn('fkiAddressStreetId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('sStreetNumber', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 50))
             ->addColumn('dLatitude', 'decimal', array('signed' => true, 'precision' => 16, 'scale' => 13))
             ->addColumn('dLongitude', 'decimal', array('signed' => true, 'precision' => 16, 'scale' => 13))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('sStreetNumber', array('name' => 'idx_street_number'))
             ->addIndex('dLatitude', array('name' => 'idx_latitude'))
             ->addIndex('dLongitude', array('name' => 'idx_longitude'))
@@ -222,12 +222,12 @@ class AddressMigration
         $entitySnakeCase = strtolower(preg_replace('/(?<!^)[A-Z]/', '_$0', $sMainEntityName));
 
         $oTableName = $this->table($sMainEntityName . 'Name', array('signed' => false));
-        $oTableName->addColumn($sFkiName, 'biginteger', array('signed' => false))
-            ->addColumn('fkiLanguageId', 'biginteger', array('signed' => false))
-            ->addColumn('sName', 'string', array('length' => MysqlAdapter::TEXT_SMALL))
-            ->addColumn('bDeleted', 'boolean',array('signed' => false))
-            ->addColumn('iCreation', 'biginteger', array('signed' => false, 'null' => true))
-            ->addColumn('iModification', 'biginteger', array('signed' => false, 'null' => true))
+        $oTableName->addColumn($sFkiName, MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('fkiLanguageId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+            ->addColumn('sName', MysqlAdapter::PHINX_TYPE_STRING, array('length' => MysqlAdapter::TEXT_TINY))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex($sFkiName, array('name' => 'idx_' . $entitySnakeCase))
             ->addIndex('fkiLanguageId', array('name' => 'idx_language'))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
