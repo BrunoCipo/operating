@@ -6,6 +6,7 @@
  */
 
 use Phinx\Migration\AbstractMigration;
+use Phinx\Db\Adapter\MysqlAdapter;
 
 /**
  * Class LanguageMigration
@@ -39,14 +40,14 @@ class LanguageMigration
     public function up()
     {
         $oTable = $this->table($this->LanguageTableName, array('signed' => false));
-        $oTable->addColumn('sName', 'string', array('length' => 150))
-            ->addColumn('sCode', 'string', array('length' => 5))
-            ->addColumn('sLocale', 'string', array('length' => 5))
-            ->addColumn('sIso2Code', 'string', array('length' => 2))
-            ->addColumn('sIso3Code', 'string', array('length' => 3))
-            ->addColumn('bDeleted', 'boolean')
-            ->addColumn('iCreation', 'biginteger', array('signed' => 'false', 'null' => 'true'))
-            ->addColumn('iModification', 'biginteger', array('signed' => 'false', 'null' => 'true'))
+        $oTable->addColumn('sName', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 150))
+            ->addColumn('sCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 5))
+            ->addColumn('sLocale', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 5))
+            ->addColumn('sIso2Code', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 2))
+            ->addColumn('sIso3Code', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 3))
+            ->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN)
+            ->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+            ->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
             ->addIndex('bDeleted', array('name' => 'idx_deleted'))
             ->addIndex('sCode', array('unique' => true, 'name' => 'uq_code'))
             ->addIndex('sLocale', array('unique' => true, 'name' => 'uq_locale'))
