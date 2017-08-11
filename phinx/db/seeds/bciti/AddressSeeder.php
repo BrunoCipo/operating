@@ -19,7 +19,7 @@ class AddressSeeder extends AbstractSeed
 
     CONST STREET_PER_CITY_TO_GENERATE = 30;
 
-    public static $COUNTRY_WITH_REGION_ID_LIST = [39, 59, 69, 239, 41, 16];
+    public static $COUNTRY_WITH_REGION_ID_LIST = [39, 59, 69, 234, 41, 16];
     public static $AUSTRIA_REGION_ID_RANGE = [1, 9];
     public static $CANADA_REGION_ID_RANGE = [10, 22];
     public static $GERMANY_REGION_ID_RANGE = [23, 38];
