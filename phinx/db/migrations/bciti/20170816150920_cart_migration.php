@@ -20,6 +20,7 @@ class CartMigration extends AbstractMigration
 		$oTableCart
 			->addColumn('fkiUserId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
 			->addColumn('fkiOrganisationId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
+			->addColumn('iType', MysqlAdapter::PHINX_TYPE_INTEGER, array('signed' => false))
 			->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
 			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_STRING, array('signed' => false, 'null' => true))
 			->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
