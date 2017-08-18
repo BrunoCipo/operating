@@ -34,8 +34,6 @@ class CurrencyMigration extends AbstractMigration
 		    ->addColumn('sIsoCode',                     'string',       [ 'null'    => false,   'length'    => 3  ] )
 		    ->addColumn('sSymbol',                      'string',       [ 'null'    => false,   'length'    => 10 ] )
 		
-		    ->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
-
 		    ->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 		    ->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )
 		    ->addColumn('iModification',                'biginteger',   [ 'null'    => true ] )
