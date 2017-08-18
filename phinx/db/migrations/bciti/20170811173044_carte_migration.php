@@ -45,8 +45,8 @@ class CarteMigration extends AbstractMigration{
 			->addColumn('iEmission',                    'biginteger',   array('null'    => true))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiUserId',                                         array('name' => 'fkiUserId'))
@@ -65,9 +65,9 @@ class CarteMigration extends AbstractMigration{
 			->addColumn('fkiSystExtTableId',            'biginteger',   array('null'    => true))
 			->addColumn('sFournisseur',                 'string',       array('null'    => true,    'length'    => 100))
 			
-			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default'   => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			
@@ -89,9 +89,9 @@ class CarteMigration extends AbstractMigration{
 			->addColumn('fkiSystExtTableId',            'biginteger',   array('null'    => true))
 			->addColumn('sFournisseur',                 'string',       array('null'    => true,    'length'    => 100))
 			
-			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default'   => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			
@@ -109,9 +109,9 @@ class CarteMigration extends AbstractMigration{
 			->addColumn('iEmission',                    'biginteger',   array('null'    => true))
 			->addColumn('iExpiration',                  'biginteger',   array('null'    => true))
 			
-			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default'   => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiCarteId',                                        array('name' => 'fkiCarteId'))
@@ -134,9 +134,9 @@ class CarteMigration extends AbstractMigration{
 			->addColumn('fkiUserId',                    'biginteger',   array('null'    => true))
 			->addColumn('iCarteUserOptionType',         'biginteger',   array('null'    => true))
 			
-			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default'   => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiUserId',                                         array('name' => 'fkiUserId'))

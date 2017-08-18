@@ -65,8 +65,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('iStatusId',                    'biginteger',   array('null'    => false,   'default' => 1))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
+
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                 array('name' => 'idx_organisation'))
@@ -91,9 +92,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiPreferredPaymentTermId',        'biginteger',   array('null'    => false))
 			->addColumn('iTypeId',                          'biginteger',   array('null'    => false,   'default' => 1))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -114,9 +115,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiFichierId',                     'biginteger',   array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -136,9 +137,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiPermitApplicationId',           'biginteger',   array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -160,9 +161,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('sRelatedObjectTypeId',             'string',       array('null'    => false,   'length'  => 50))
 			->addColumn('iRelatedObjectId',                 'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -181,10 +182,10 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiOrganisationId',                'biginteger',   array('null'    => false))
 			->addColumn('fkiPermitApplicationId',           'biginteger',   array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
-
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -204,9 +205,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('sName',                            'string',       array('null'    => false))
 			->addColumn('sDescription',                     'string',       array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -225,10 +226,10 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiOrganisationId',                'biginteger',   array('null'    => false))
 			->addColumn('fkiPermitId',                      'biginteger',   array('null'    => false))
 			->addColumn('fkiValidityPeriodId',              'biginteger',   array('null'    => false))
-
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -246,9 +247,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiPermitPermissionId',            'biginteger',   array('null'    => false))
 			->addColumn('fkiZoneId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiPermitPermissionId',                                 array('name'    => 'idx_permit'))
@@ -274,9 +275,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('iEndValidityDate',                 'biginteger',   array('null'    => false))
 			->addColumn('fkiInvoiceId',                     'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -296,9 +297,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiPermitSubscriptionId',          'biginteger',   array('null'    => false))
 			->addColumn('fkiStatusId',                      'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -318,9 +319,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('sRelatedObjectTypeId',             'string',       array('null'    => false,   'length'  => 50))
 			->addColumn('iRelatedObjectId',                 'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -339,9 +340,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiPermitSubscriptionId',          'biginteger',   array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
@@ -363,9 +364,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('iManagingTypeId',                  'biginteger',   array('null'    => true,))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false,   'default'   => 1))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name'    => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name'    => 'idx_organisation'))
