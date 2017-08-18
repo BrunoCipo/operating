@@ -33,14 +33,77 @@ class ApiMigration extends AbstractMigration{
 	}
 
 	protected function vCreateApiDocTable(){
+		
+		$this->table('ApiDoc', array('id'=> false, 'primary_key' => array('id')))
+			->addColumn('id',                   'biginteger',   array('identity'  => true))
 
+			->addColumn('sRessource',           'string',       array('length'  => 255,      'null'      => true))
+			->addColumn('sMethod',              'string',       array('length'  => 20,       'null'      => true))
+			->addColumn('iVersion',             'biginteger',   array('null'    => true))
+			->addColumn('sDescription',         'string',       array('null'    => true))
+			->addColumn('sAutoTestUrl',         'string',       array('null'    => true))
+			->addColumn('sInfo',                'string',       array('null'    => true))
+			->addColumn('sDataToServerExample', 'string',       array('null'    => true))
+			->addColumn('sResponseExample',     'string',       array('null'    => true))
+			
+			->addColumn('bDeleted',             'integer',      array('null'    => false,    'default' => 0))
+			->addColumn('iCreation',            'biginteger',   array('null'    => false))
+			->addColumn('iModification',        'biginteger',   array('null'    => false))
+			
+			->addIndex(     'bDeleted',                                  array('name'    => 'idx_deleted'))
+			
+			->create();
+		
 	}
 
 	protected function vCreateApiEndPointTable(){
+		
+		$this->table('ApiEndPoint', array('id'=> false, 'primary_key' => array('id')))
+			->addColumn('id',                   'biginteger',   array('identity'  => true))
 
+			->addColumn('fkiApiVersion',        'biginteger',   array('null'    => false))
+			->addColumn('sTitle',               'string',       array('length'  => 100,      'null'   => true))
+			->addColumn('sResponseExemple',     'string',       array('null'    => true))
+			
+			->addColumn('bDeleted',             'integer',      array('null'    => false,    'default' => 0))
+			->addColumn('iCreation',            'biginteger',   array('null'    => false,    'signed'  => false))
+			->addColumn('iModification',        'biginteger',   array('null'    => false,    'signed'  => false))
+			
+			->addIndex(     'bDeleted',                                  array('name' => 'idx_deleted'))
+			
+			->create();
+		
+		
 	}
 
 	protected function vCreateApiVersionTable(){
 		
+		$this->table('ApiVersion', array('id'=> false, 'primary_key' => array('id')))
+			->addColumn('id',                   'biginteger',   array('identity'  => true))
+			
+			->addColumn('fkiApidoc',            'biginteger',   array('null'   => false))
+			->addColumn('sVersion',             'string',       array('length' => 100,      'null'      => false))
+			->addColumn('iUserId',              'biginteger',   array('null'   => true))
+			->addColumn('sDescription',         'string',       array('null'   => true))
+			->addColumn('sAutoTestUrl',         'string',       array('null'   => true))
+			->addColumn('sInfo',                'string',       array('null'   => true))
+			->addColumn('sDataToServerExample', 'string',       array('null'   => true))
+			->addColumn('aPossibleHttp',        'string',       array('null'   => true))
+			->addColumn('aGetParams',           'string',       array('null'   => true))
+			
+			
+			
+			->addColumn('sTitle',               'string',       array('length' => 100,      'null'   => true))
+			->addColumn('sResponseExemple',     'string',       array('null'   => true))
+			
+			->addColumn('bDeleted',             'integer',      array('null'    => false,    'default' => 0))
+			->addColumn('iCreation',            'biginteger',   array('null'    => false))
+			->addColumn('iModification',        'biginteger',   array('null'    => false))
+			
+			->addIndex(     'bDeleted',                                  array('name' => 'idx_deleted'))
+			
+			->create();
+		
+
 	}
 }
