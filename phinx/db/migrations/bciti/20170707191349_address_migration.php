@@ -186,6 +186,8 @@ class AddressMigration extends AbstractMigration{
 			->addIndex('sCode', array('name' => 'idx_code'))
 			->addIndex('fkiAddressCityId', array('name' => 'idx_address_city'))
 			->addIndex('bDeleted', array('name' => 'idx_deleted'))
+			->addIndex(array('fkiAddressCityId', 'sCode'),
+				array('unique' => true, 'name' => 'uq_city_street_code'))
 			->create();
 
 		$oTableName = $this->oGetNameTable($sEntityName);
