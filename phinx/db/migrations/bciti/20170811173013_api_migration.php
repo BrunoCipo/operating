@@ -46,9 +46,9 @@ class ApiMigration extends AbstractMigration{
 			->addColumn('sDataToServerExample', 'string',       array('null'    => true))
 			->addColumn('sResponseExample',     'string',       array('null'    => true))
 			
-			->addColumn('bDeleted',             'integer',      array('null'    => false,    'default' => 0))
-			->addColumn('iCreation',            'biginteger',   array('null'    => false))
-			->addColumn('iModification',        'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                  array('name'    => 'idx_deleted'))
 			
@@ -65,9 +65,9 @@ class ApiMigration extends AbstractMigration{
 			->addColumn('sTitle',               'string',       array('length'  => 100,      'null'   => true))
 			->addColumn('sResponseExemple',     'string',       array('null'    => true))
 			
-			->addColumn('bDeleted',             'integer',      array('null'    => false,    'default' => 0))
-			->addColumn('iCreation',            'biginteger',   array('null'    => false,    'signed'  => false))
-			->addColumn('iModification',        'biginteger',   array('null'    => false,    'signed'  => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                  array('name' => 'idx_deleted'))
 			
@@ -91,14 +91,9 @@ class ApiMigration extends AbstractMigration{
 			->addColumn('aPossibleHttp',        'string',       array('null'   => true))
 			->addColumn('aGetParams',           'string',       array('null'   => true))
 			
-			
-			
-			->addColumn('sTitle',               'string',       array('length' => 100,      'null'   => true))
-			->addColumn('sResponseExemple',     'string',       array('null'   => true))
-			
-			->addColumn('bDeleted',             'integer',      array('null'    => false,    'default' => 0))
-			->addColumn('iCreation',            'biginteger',   array('null'    => false))
-			->addColumn('iModification',        'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                  array('name' => 'idx_deleted'))
 			

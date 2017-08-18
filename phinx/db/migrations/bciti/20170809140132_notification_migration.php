@@ -54,10 +54,10 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('iSendAt',                      'biginteger',   array('null'    => false))
 			->addColumn('iStatusId',                    'biginteger',   array('null'    => false))
 			->addColumn('sMtxFileList',                 'string',       array('null'    => true))
-
+			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                 array('name' => 'idx_organisation'))
@@ -80,8 +80,8 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('iPriorityId',                  'biginteger',   array('null'    => true))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                 array('name' => 'idx_organisation'))
@@ -102,8 +102,8 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('sMetaData',                    'string',       array('null'    => false))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                 array('name' => 'idx_organisation'))
@@ -125,10 +125,10 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('sMetaData',                    'string',       array('null'    => false))
 			->addColumn('fkiFichierId',                 'biginteger',   array('null'    => true))
 			->addColumn('bRequired',                    'integer',      array('null'    => false,   'default' => 0))
-
+			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiNotificationCategoryId',                         array('name' => 'idx_category'))
@@ -151,8 +151,8 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('iDelayInSeconds',              'biginteger',   array('null'    => true))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiNotificationCategoryId',                         array('name' => 'idx_category'))
@@ -176,8 +176,8 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('sMetaData',                    'string',       array('null'    => false, 'default' => ''))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiNotificationId',                                 array('name' => 'idx_notification'))
@@ -198,8 +198,8 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('sMetaData',                    'string',       array('null'    => true))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->create();
 	}
@@ -217,8 +217,8 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('iDelayInSeconds',              'biginteger',   array('null'    => true))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			

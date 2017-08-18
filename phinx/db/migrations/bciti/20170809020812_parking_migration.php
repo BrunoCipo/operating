@@ -48,8 +48,8 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('iStatusId',                    'biginteger',   array('null'    => false))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                    'biginteger',   array('null'    => false))
-			->addColumn('iModification',                'biginteger',   array('null'    => false))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                          array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                 array('name' => 'idx_organisation'))
@@ -71,10 +71,10 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('iMaxParkingTimeInSeconds',         'biginteger',   array('null'    => false))
 			->addColumn('bEnablePrepaymentForNextPeriod',   'integer',      array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
-
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name' => 'idx_organisation'))
@@ -101,10 +101,10 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('iUnitTimeId',                      'biginteger',   array('null'    => false))
 			->addColumn('iDurationInSeconds',               'biginteger',   array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
-
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name' => 'idx_organisation'))
@@ -122,9 +122,9 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('fkiParkingAreaId',                 'biginteger',   array('null'    => false))
 			->addColumn('fkiZoneId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name' => 'idx_deleted'))
 			->addIndex(     'fkiParkingAreaId',                                      array('name' => 'idx_parking_area'))
@@ -154,9 +154,9 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('dBcitiFeeTaxIncluded',             'decimal',      array('null'    => false,   'precision' => 20, 'scale' => 8))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name' => 'idx_deleted'))
 			->addIndex(     'fkiOrganisationId',                                     array('name' => 'idx_organisation'))
@@ -181,9 +181,9 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('iReasonId',                        'biginteger',   array('null'    => false))
 			->addColumn('sUserNote',                        'string',       array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name' => 'idx_deleted'))
 			->addIndex(     'fkiInvoiceId',                                          array('name' => 'idx_invoice'))
@@ -213,9 +213,9 @@ class ParkingMigration extends AbstractMigration{
 			->addColumn('sNotificationList',                'string',       array('null'    => false))
 			->addColumn('iStatusId',                        'biginteger',   array('null'    => false))
 			
-			->addColumn('bDeleted',                         'integer',      array('null'    => false,   'default' => 0))
-			->addColumn('iCreation',                        'biginteger',   array('null'    => false))
-			->addColumn('iModification',                    'biginteger',   array('null'    => false))
+			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
+			->addColumn('iCreation',                    'biginteger',   array('null'    => true))
+			->addColumn('iModification',                'biginteger',   array('null'    => true))
 			
 			->addIndex(     'bDeleted',                                              array('name' => 'idx_deleted'))
 			->addIndex(     'fkiInvoiceId',                                          array('name' => 'idx_invoice'))
