@@ -48,7 +48,7 @@ class LocationMigration extends AbstractMigration
 			
 			->addIndex(     'bDeleted',                     [ 'name' => 'idx_deleted' ] )
 			->addIndex(     [   'fkiOrganisationId',
-								'sCode' ],                           [ 'name' => 'uq_organisation_code' ] )
+								'sCode' ],                           [ 'name' => 'uq_organisation_code', 'unique' => true ] )
 			->addIndex(     'sCode',                        [ 'name' => 'idx_code' ] )
 			->addIndex(     'fkiOrganisationId',            [ 'name' => 'idx_organisation' ] )
 			
