@@ -9,6 +9,11 @@
 /php7cc/composer.lock
 /php7cc/vendor/
 
+# PHPloc #
+#########
+/phploc/composer.lock
+/phploc/vendor/
+
 # IDE and editor specific files #
 #################################
 /nbproject
