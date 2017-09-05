@@ -153,7 +153,7 @@ class AddressMigration extends AbstractMigration{
 		$oTable = $this->table($sEntityName, array('signed' => false));
 		$oTable->addColumn('fkiAddressCountryId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
 			->addColumn('fkiAddressRegionId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER,
-				array('signed' => false, 'null' => true))
+				array('signed' => false, 'null' => true, 'default' => null))
 			->addColumn('sCode', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10))
 			->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false, 'default' => 0))
 			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
