@@ -61,8 +61,8 @@ class ConstraintMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',    'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sName',                'string',       [ 'null'    => false ] )
-			->addColumn('sDescription',         'string',       [ 'null'    => false ] )
+			->addColumn('sName',                'string',       [ 'null'    => false, 'length' => 1073741823  ] )
+			->addColumn('sDescription',         'string',       [ 'null'    => false, 'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',             'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			->addColumn('iCreation',            'biginteger',   [ 'null'    => true ] )
@@ -82,10 +82,10 @@ class ConstraintMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',        'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iCodeId',                  'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiConstraintCategoryId',  'biginteger',   [ 'null'    => false ] )
-			->addColumn('sName',                    'string',       [ 'null'    => false ] )
-			->addColumn('sDescription',             'string',       [ 'null'    => false ] )
-			->addColumn('sCondition',               'string',       [ 'null'    => false ] )
-			->addColumn('sAvailableOperatorList',   'string',       [ 'null'    => false ] )
+			->addColumn('sName',                    'string',       [ 'null'    => false, 'length' => 1073741823  ] )
+			->addColumn('sDescription',             'string',       [ 'null'    => false, 'length' => 1073741823  ] )
+			->addColumn('sCondition',               'string',       [ 'null'    => false, 'length' => 1073741823  ] )
+			->addColumn('sAvailableOperatorList',   'string',       [ 'null'    => false, 'length' => 1073741823  ] )
 			->addColumn('bIsBlocking',              'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			
 			->addColumn('bDeleted',                 'integer',      [ 'null'    => false ,   'default' => 0 ] )

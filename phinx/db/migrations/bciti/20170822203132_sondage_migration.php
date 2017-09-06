@@ -39,9 +39,9 @@ class SondageMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sSondageCibleType',            'string',       [ 'null'    => true  ] )
-			->addColumn('sNom',                         'string',       [ 'null'    => true  ] )
-			->addColumn('sDescription',                 'string',       [ 'null'    => true  ] )
+			->addColumn('sSondageCibleType',            'string',       [ 'null'    => true,   'length' => 1073741823  ] )
+			->addColumn('sNom',                         'string',       [ 'null'    => true,   'length' => 1073741823  ] )
+			->addColumn('sDescription',                 'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			->addColumn('iDateDebut',                   'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iDateFin',                     'biginteger',   [ 'null'    => true  ] )
 			->addColumn('bActif',                       'integer',      [ 'null'    => true  ] )
@@ -61,7 +61,7 @@ class SondageMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiSondageQuestionId',         'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sChoixReponse',                'string',       [ 'null'    => true  ] )
+			->addColumn('sChoixReponse',                'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -78,7 +78,7 @@ class SondageMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiSondageId',                 'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sQuestion',                    'string',       [ 'null'    => true  ] )
+			->addColumn('sQuestion',                    'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			->addColumn('iOrdre',                       'biginteger',   [ 'null'    => true  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
@@ -99,7 +99,7 @@ class SondageMigration extends AbstractMigration
 			->addColumn('fkiSondageQuestionId',         'biginteger',   [ 'null'    => true  ] )
 			->addColumn('fkiSondageChoixReponseId',     'biginteger',   [ 'null'    => true  ] )
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sIdentifiantCookie',           'string',       [ 'null'    => true  ] )
+			->addColumn('sIdentifiantCookie',           'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

@@ -39,7 +39,7 @@ class ZoneMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',    'biginteger',   [ 'null'    => false  ] )
 			->addColumn('sExternalIdentifier',  'string',       [ 'null'    => false,   'length' => 150 ] )
 			->addColumn('sName',                'string',       [ 'null'    => false,   'length' => 1073741823 ] )
-			->addColumn('1073741823',           'string',       [ 'null'    => false,   'length' => 1073741823 ] )
+			->addColumn('sDescription',         'string',       [ 'null'    => false,   'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',             'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',            'biginteger',   [ 'null'    => true  ] )

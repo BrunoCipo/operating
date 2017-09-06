@@ -34,8 +34,8 @@ class JournalisationMigration extends AbstractMigration
 		    ->addColumn('sModele',                      'string',       [ 'null'    => true,    'length' => 100  ] )
 		    ->addColumn('fkiModeleId',                  'biginteger',   [ 'null'    => true   ] )
 		    ->addColumn('fkiUserConnectedId',           'biginteger',   [ 'null'    => true   ] )
-		    ->addColumn('sJsonDetailsBefore',           'string',       [ 'null'    => true   ] )
-		    ->addColumn('sJsonDetailsAfter',            'string',       [ 'null'    => true   ] )
+		    ->addColumn('sJsonDetailsBefore',           'string',       [ 'null'    => true,    'length'    => 1073741823   ] )
+		    ->addColumn('sJsonDetailsAfter',            'string',       [ 'null'    => true,    'length'    => 1073741823   ] )
 		
 		    ->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 		    ->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )

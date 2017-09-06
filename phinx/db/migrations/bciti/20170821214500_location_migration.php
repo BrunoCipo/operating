@@ -37,9 +37,9 @@ class LocationMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false   ] )
-			->addColumn('sCode',                        'string',       [ 'null'    => false,   'length' => 255   ] )
-			->addColumn('sName',                        'string',       [ 'null'    => false   ] )
-			->addColumn('sDescription',                 'string',       [ 'null'    => false   ] )
+			->addColumn('sCode',                        'string',       [ 'null'    => false,    'length'    => 255   ] )
+			->addColumn('sName',                        'string',       [ 'null'    => false,    'length'    => 1073741823   ] )
+			->addColumn('sDescription',                 'string',       [ 'null'    => false,    'length'    => 1073741823   ] )
 			->addColumn('iNbAvailableSlot',             'biginteger',   [ 'null'    => false   ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )

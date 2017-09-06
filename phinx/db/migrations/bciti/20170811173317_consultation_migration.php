@@ -44,7 +44,7 @@ class ConsultationMigration extends AbstractMigration{
 			->addColumn('fkiConsultationSurveyId',      'biginteger',   [ 'null'    => true ] )
 			->addColumn('fkiConsultationQuestionId',    'biginteger',   [ 'null'    => true ] )
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true ] )
-			->addColumn('jAnswer',                      'string',       [ 'null'    => true ] )
+			->addColumn('jAnswer',                      'string',       [ 'null'    => true, 'length' => 1073741823  ] )
 		 
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )
@@ -61,10 +61,10 @@ class ConsultationMigration extends AbstractMigration{
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => true ] )
-			->addColumn('sTitle',                       'string',       [ 'null'    => true ] )
-			->addColumn('sShortDescription',            'string',       [ 'null'    => true ] )
-			->addColumn('sFichierIdShortDescription',   'string',       [ 'null'    => true ] )
-			->addColumn('sRichText',                    'string',       [ 'null'    => true ] )
+			->addColumn('sTitle',                       'string',       [ 'null'    => true, 'length' => 1073741823  ] )
+			->addColumn('sShortDescription',            'string',       [ 'null'    => true, 'length' => 1073741823  ] )
+			->addColumn('sFichierIdShortDescription',   'string',       [ 'null'    => true, 'length' => 1073741823  ] )
+			->addColumn('sRichText',                    'string',       [ 'null'    => true, 'length' => 1073741823  ] )
 			->addColumn('iTimestampStart',              'biginteger',   [ 'null'    => true ] )
 			->addColumn('iTimestampEnd',                'biginteger',   [ 'null'    => true ] )
 			->addColumn('bArchived',                    'integer',      [ 'null'    => true ] )
@@ -90,7 +90,7 @@ class ConsultationMigration extends AbstractMigration{
 			->addColumn('bMandatory',                   'integer',      [ 'null'    => false ] )
 			->addColumn('bStyleBold',                   'integer',      [ 'null'    => false ] )
 			->addColumn('bStyleItalic',                 'integer',      [ 'null'    => false ] )
-			->addColumn('jConfiguration',               'string',       [ 'null'    => false ] )
+			->addColumn('jConfiguration',               'string',       [ 'null'    => false, 'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -109,7 +109,7 @@ class ConsultationMigration extends AbstractMigration{
 			->addColumn('fkiConsultationQuestionId',    'biginteger',   [ 'null'    => true  ] )
 			->addColumn('fkiSkipToQuestionId',          'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iOrder',                       'biginteger',   [ 'null'    => true  ] )
-			->addColumn('jConfiguration',               'string',       [ 'null'    => true  ] )
+			->addColumn('jConfiguration',               'string',       [ 'null'    => true, 'length' => 1073741823   ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -126,8 +126,8 @@ class ConsultationMigration extends AbstractMigration{
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiConsultationProjectId',     'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sName',                        'string',       [ 'null'    => true  ] )
-			->addColumn('sDescription',                 'string',       [ 'null'    => true  ] )
+			->addColumn('sName',                        'string',       [ 'null'    => true, 'length' => 1073741823   ] )
+			->addColumn('sDescription',                 'string',       [ 'null'    => true, 'length' => 1073741823   ] )
 			->addColumn('iTimestampStart',              'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTimestampEnd',                'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTargetAgeMin',                'biginteger',   [ 'null'    => true  ] )

@@ -39,8 +39,8 @@ class PublicApiMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiPublicApiServerKeyId',      'biginteger',   [ 'null'    => false ] )
 			->addColumn('sEndpointId',                  'string',       [ 'null'    => false,   'length' => 50  ] )
-			->addColumn('sRequest',                     'string',       [ 'null'    => false ] )
-			->addColumn('sResponse',                    'string',       [ 'null'    => false ] )
+			->addColumn('sRequest',                     'string',       [ 'null'    => false,   'length' => 1073741823 ] )
+			->addColumn('sResponse',                    'string',       [ 'null'    => false,   'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -62,7 +62,7 @@ class PublicApiMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('sName',                        'string',       [ 'null'    => false,   'length' => 150 ] )
 			->addColumn('sServerKey',                   'string',       [ 'null'    => false,   'length' => 300 ] )
-			->addColumn('sAuthorizedEndpoint',          'string',       [ 'null'    => true  ] )
+			->addColumn('sAuthorizedEndpoint',          'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

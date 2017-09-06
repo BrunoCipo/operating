@@ -53,9 +53,9 @@ class PermitMigration extends AbstractMigration{
 			->addColumn('fkiPermitCategoryId',          'biginteger',   array('null'    => false   ))
 			->addColumn('sExternalIdentifier',          'string',       array('length'  => 255,     'null'    => false))
 			->addColumn('sPrefix',                      'string',       array('length'  => 50,      'null'    => false))
-			->addColumn('sName',                        'string',       array('null'    => false))
-			->addColumn('sDescription',                 'string',       array('null'    => false))
-			->addColumn('sLongDescription',             'string',       array('null'    => false))
+			->addColumn('sName',                        'string',       array('null'    => false,   'length' => 1073741823 ))
+			->addColumn('sDescription',                 'string',       array('null'    => false,   'length' => 1073741823 ))
+			->addColumn('sLongDescription',             'string',       array('null'    => false,   'length' => 1073741823 ))
 			->addColumn('iQuantityId',                  'biginteger',   array('null'    => false))
 			->addColumn('iQuantityActualAvailability',  'integer',      array('null'    => true))
 			->addColumn('iQuantityOverbooking',         'integer',      array('null'    => true))
@@ -202,8 +202,8 @@ class PermitMigration extends AbstractMigration{
 			
 			->addColumn('fkiOrganisationId',                'biginteger',   array('null'    => false))
 			->addColumn('iPermitTypeId',                    'biginteger',   array('null'    => false))
-			->addColumn('sName',                            'string',       array('null'    => false))
-			->addColumn('sDescription',                     'string',       array('null'    => false))
+			->addColumn('sName',                            'string',       array('null'    => false,   'length' => 1073741823 ))
+			->addColumn('sDescription',                     'string',       array('null'    => false,   'length' => 1073741823 ))
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
 			->addColumn('iCreation',                    'biginteger',   array('null'    => true))

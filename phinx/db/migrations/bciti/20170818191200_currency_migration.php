@@ -30,7 +30,7 @@ class CurrencyMigration extends AbstractMigration
 	    $this->table('Currency', [ 'id'=> false, 'primary_key' => [ 'id' ] ] )
 		    ->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 		
-		    ->addColumn('sName',                        'string',       [ 'null'    => false ] )
+		    ->addColumn('sName',                        'string',       [ 'null'    => false,   'length'    => 1073741823 ] )
 		    ->addColumn('sIsoCode',                     'string',       [ 'null'    => false,   'length'    => 3  ] )
 		    ->addColumn('sSymbol',                      'string',       [ 'null'    => false,   'length'    => 10 ] )
 		

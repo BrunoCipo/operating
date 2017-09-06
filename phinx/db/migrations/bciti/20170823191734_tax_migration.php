@@ -31,10 +31,10 @@ class TaxMigration extends AbstractMigration
 		    ->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
 		
 		    ->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
-		    ->addColumn('sName',                        'string',       [ 'null'    => false ] )
-		    ->addColumn('dRate',                        'decimal',      [ 'null'    => false, 'precision' => 20, 'scale' => 8  ] )
+		    ->addColumn('sName',                        'string',       [ 'null'    => false,    'length'    => 1073741823 ] )
+		    ->addColumn('dRate',                        'decimal',      [ 'null'    => false,    'precision' => 20, 'scale' => 8  ] )
 		
-		    ->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
+		    ->addColumn('bDeleted',                     'integer',      [ 'null'    => false,    'default'   => 0  ] )
 		    ->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
 		    ->addColumn('iModification',                'biginteger',   [ 'null'    => true  ] )
 		

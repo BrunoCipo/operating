@@ -47,7 +47,7 @@ class VignetteDemandeMigration extends AbstractMigration
 			->addColumn('iAnneeReference',                  'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iDateSoumission',                  'biginteger',   [ 'null'    => true  ] )
 			->addColumn('bTitulaireAnneePrec',              'integer',      [ 'null'    => false ] )
-			->addColumn('sNotes',                           'string',       [ 'null'    => false,   'length' => 1073741823 ] )   //todo bc check length (1073741823) ??
+			->addColumn('sNotes',                           'string',       [ 'null'    => false,   'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',             'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',            'biginteger',   [ 'null'    => true  ] )

@@ -37,7 +37,7 @@ class TagMigration extends AbstractMigration
 			->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
-			->addColumn('sName',                        'string',       [ 'null'    => false ] )
+			->addColumn('sName',                        'string',       [ 'null'    => false,   'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

@@ -77,7 +77,7 @@ class SystExtMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => true  ] )
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iSystExtActivityId',           'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sJsonData',                    'string',       [ 'null'    => true  ] )
+			->addColumn('sJsonData',                    'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -98,7 +98,7 @@ class SystExtMigration extends AbstractMigration
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => true  ] )
 			->addColumn('sCard',                        'string',       [ 'null'    => true  ] )
-			->addColumn('jsonData',                     'string',       [ 'null'    => true  ] )
+			->addColumn('jsonData',                     'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iSystExtActivityId',           'biginteger',   [ 'null'    => true  ] )
@@ -132,7 +132,7 @@ class SystExtMigration extends AbstractMigration
 			->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
 
 			->addColumn('sCommand',                     'string',       [ 'null'    => true,    'length' => 255  ] )
-			->addColumn('sData',                        'string',       [ 'null'    => true  ] )
+			->addColumn('sData',                        'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -203,9 +203,9 @@ class SystExtMigration extends AbstractMigration
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiParkingReservationId',      'biginteger',   [ 'null'    => false ] )
-			->addColumn('sRequest',                     'string',       [ 'null'    => false ] )
+			->addColumn('sRequest',                     'string',       [ 'null'    => false,   'length' => 1073741823 ] )
 			->addColumn('sCaleReferenceId',             'string',       [ 'null'    => true,    'length' => 150  ] )
-			->addColumn('sCaleErrorMessage',            'string',       [ 'null'    => true  ] )
+			->addColumn('sCaleErrorMessage',            'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			->addColumn('iStatusId',                    'biginteger',   [ 'null'    => false ] )
 
 			->addColumn('sContent',                     'string',       [ 'null'    => true,    'length' => 2000  ] )
@@ -289,9 +289,9 @@ class SystExtMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => true  ] )
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iProviderId',                  'biginteger',   [ 'null'    => true,    'default' => 1  ] )
-			->addColumn('iSystExtUserId',               'string',       [ 'null'    => true  ] )
-			->addColumn('sBearerToken',                 'string',       [ 'null'    => true  ] )
-			->addColumn('sPartialToken',                'string',       [ 'null'    => true  ] )
+			->addColumn('iSystExtUserId',               'string',       [ 'null'    => true,   'length' => 1073741823  ] )
+			->addColumn('sBearerToken',                 'string',       [ 'null'    => true,   'length' => 1073741823  ] )
+			->addColumn('sPartialToken',                'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			->addColumn('iBearerTokenStart',            'biginteger',   [ 'null'    => true  ] )
 			->addColumn('bAdminLogin',                  'integer',      [ 'null'    => true,    'default' => 0  ] )
 			
@@ -401,36 +401,19 @@ class SystExtMigration extends AbstractMigration
 		
 		$this->table('SystExtNotice', [ 'id'=> false, 'primary_key' => [ 'id' ] ] )
 			->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
+
+			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false  ] )
+			->addColumn('iProviderId',                  'biginteger',   [ 'null'    => false  ] )
+			->addColumn('iActionId',                    'biginteger',   [ 'null'    => false  ] )
+			->addColumn('sConfirmationId',              'string',       [ 'null'    => true,    'length' => 150 ] )
+			->addColumn('sErrorMessage',                'string',       [ 'null'    => true,    'length' => 1073741823 ] )
 			
-			->addColumn('googleid',                     'string',       [ 'null'    => true,    'length' => 255 ] )
-			->addColumn('nom',                          'string',       [ 'null'    => true,    'length' => 100 ] )
-			->addColumn('prenom',                       'string',       [ 'null'    => true,    'length' => 100 ] )
-			->addColumn('nocivique',                    'integer',      [ 'null'    => true ] )
-			->addColumn('appt',                         'string',       [ 'null'    => true,    'length' => 30  ] )
-			->addColumn('rue',                          'string',       [ 'null'    => true,    'length' => 100 ] )
-			->addColumn('ville',                        'string',       [ 'null'    => true,    'length' => 100 ] )
-			->addColumn('codepostal',                   'string',       [ 'null'    => true,    'length' => 10  ] )
-			->addColumn('nbcoord',                      'integer',      [ 'null'    => true ] )
-			->addColumn('coord1',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('poste1',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type1',                        'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('coord2',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('poste2',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type2',                        'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('coord3',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type3',                        'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('coord4',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('poste4',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type4',                        'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('coord5',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('poste5',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type5',                        'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('coord6',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('poste6',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type6',                        'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('coord7',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('poste7',                       'string',       [ 'null'    => true,    'length' => 70  ] )
-			->addColumn('type7',                       'string',       [ 'null'    => true,    'length' => 70  ] )
+			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
+			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
+			->addColumn('iModification',                'biginteger',   [ 'null'    => true  ] )
+			
+			->addIndex(     'bDeleted',                     [ 'name' => 'idx_deleted' ] )
+			->addIndex(     'fkiMessageId',                 [ 'name' => 'fkiMessageId' ] )
 			
 			->create();
 	}
