@@ -40,7 +40,7 @@ class OrganisationConfigurationSeeder extends AbstractSeed
 	
 	    array_multisort(
 		    array_column($aData,"fkiOrganisationId"), SORT_NUMERIC, SORT_ASC,
-		    array_column($aDataata,"sKey"), SORT_NUMERIC, SORT_ASC,
+		    array_column($aData,"sKey"), SORT_NUMERIC, SORT_ASC,
 		    $aData
 	    );
 	
