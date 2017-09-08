@@ -413,7 +413,7 @@ class SystExtMigration extends AbstractMigration
 			->addColumn('iModification',                'biginteger',   [ 'null'    => true  ] )
 			
 			->addIndex(     'bDeleted',                     [ 'name' => 'idx_deleted' ] )
-			->addIndex(     'fkiMessageId',                 [ 'name' => 'fkiMessageId' ] )
+			->addIndex(     'fkiOrganisationId',            [ 'name' => 'fkiOrganisationId' ] )
 			
 			->create();
 	}

@@ -96,8 +96,8 @@ class OrganisationMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
-			->addColumn('sKey',                         'biginteger',   [ 'null'    => false,   'length' => 100 ] )
-			->addColumn('sValue',                       'biginteger',   [ 'null'    => true,    'length' => 1073741823  ] )
+			->addColumn('sKey',                         'string',       [ 'null'    => false,   'length' => 100 ] )
+			->addColumn('sValue',                       'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

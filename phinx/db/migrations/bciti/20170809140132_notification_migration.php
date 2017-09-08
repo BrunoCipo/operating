@@ -173,7 +173,7 @@ class NotificationMigration extends AbstractMigration{
 			->addColumn('fkiNotificationId',            'biginteger',   array('null'    => false))
 			->addColumn('sName',                        'string',       array('null'    => false, 'length' => 150, 'default' => ''))
 			->addColumn('sAddress',                     'string',       array('null'    => false, 'length' => 300, 'default' => ''))
-			->addColumn('sMetaData',                    'string',       array('null'    => false, 'length' => 1073741823 , 'default' => ''))
+			->addColumn('sMetaData',                    'string',       array('null'    => false, 'length' => 1073741823 )) //todo bc , 'default' => ''
 			
 			->addColumn('bDeleted',                     'integer',      array('null'    => false,   'default' => 0))
 			->addColumn('iCreation',                    'biginteger',   array('null'    => true))

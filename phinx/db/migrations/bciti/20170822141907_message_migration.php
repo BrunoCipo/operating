@@ -51,7 +51,7 @@ class MessageMigration extends AbstractMigration
 			->addColumn('iDateEnvoi',                   'biginteger',   [ 'null'    => true   ] )
 			->addColumn('iSujet',                       'biginteger',   [ 'null'    => true   ] )
 			->addColumn('iSujetBeta',                   'biginteger',   [ 'null'    => true   ] )
-			->addColumn('sContenu',                     'string',       [ 'null'    => true,    'length'    => 1073741823,     'default' => '' ] )
+			->addColumn('sContenu',                     'string',       [ 'null'    => true,    'length'    => 1073741823, ] )  //todo bc 'default' = ''
 			->addColumn('fkiGeoPointId',                'biginteger',   [ 'null'    => true   ] )
 			->addColumn('iVisibilityId',                'biginteger',   [ 'null'    => false,    'default' => 1  ] )
 			->addColumn('sMetaData',                    'string',       [ 'null'    => true,    'length'    => 1073741823  ] )
