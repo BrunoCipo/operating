@@ -1,0 +1,67 @@
+[
+	{
+		"fkiOrganisationId": "",
+		"iCodeId": "1",
+		"fkiConstraintCategoryId": "4",
+		"sName": "{\"fre\":\"Transmettre un document\", \"eng\":\"Submit document\"}",
+		"sDescription": "{}",
+		"sCondition": "{\"fre\":\"La liste des documents transmis par l'usager\", \"eng\":\"List of user's vehicles\"}",
+		"sAvailableOperatorList": "[\"CONTAINS\"]",
+		"bIsBlocking": "0",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	},
+	{
+		"fkiOrganisationId": "",
+		"iCodeId": "2",
+		"fkiConstraintCategoryId": "1",
+		"sName": "{\"fre\":\"V\u00e9hicules de l'usager\", \"eng\":\"User's vehicles\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"sCondition": "{\"fre\":\"L'usager doit indiquer un nombre de v\u00e9hicules\", \"eng\":\"User must indicate number of vehicles\"}",
+		"sAvailableOperatorList": "[\"==\"]",
+		"bIsBlocking": "0",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	},
+	{
+		"fkiOrganisationId": "",
+		"iCodeId": "4",
+		"fkiConstraintCategoryId": "3",
+		"sName": "{\"fre\":\"Adresses de l'usager\", \"eng\":\"User's addresses\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"sCondition": "{\"fre\":\"L'usager doit indiquer un nombre d'adresses\", \"eng\":\"User must indicate number of addresses\"}",
+		"sAvailableOperatorList": "[\"==\"]",
+		"bIsBlocking": "0",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	},
+	{
+		"fkiOrganisationId": "",
+		"iCodeId": "5",
+		"fkiConstraintCategoryId": "3",
+		"sName": "{\"fre\":\"Profil de l'usager\", \"eng\":\"User's profile\"}",
+		"sDescription": "{}",
+		"sCondition": "{\"fre\":\"Le profil de l'usager\", \"eng\":\"User's profile\"}",
+		"sAvailableOperatorList": "[\"CONTAINS\"]",
+		"bIsBlocking": "0",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iCodeId": "3",
+		"fkiConstraintCategoryId": "3",
+		"sName": "{\"fre\":\"V\u00e9rification du statut de l'usager\", \"eng\":\"Verify user status\"}",
+		"sDescription": "{}",
+		"sCondition": "{\"fre\":\"La liste des statuts de l'usager\", \"eng\":\"List of user's statuts\"}",
+		"sAvailableOperatorList": "[\"CONTAINS\"]",
+		"bIsBlocking": "1",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	}
+]

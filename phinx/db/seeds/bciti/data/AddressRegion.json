@@ -1,0 +1,1522 @@
+[
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "1",
+		"sIsoCode": "AT-1",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "2",
+		"sIsoCode": "AT-2",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "3",
+		"sIsoCode": "AT-3",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "4",
+		"sIsoCode": "AT-4",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "5",
+		"sIsoCode": "AT-5",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "6",
+		"sIsoCode": "AT-6",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "7",
+		"sIsoCode": "AT-7",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "8",
+		"sIsoCode": "AT-8",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "16",
+		"sCode": "9",
+		"sIsoCode": "AT-9",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "AB",
+		"sIsoCode": "CA-AB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "BC",
+		"sIsoCode": "CA-BC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "MB",
+		"sIsoCode": "CA-MB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "NB",
+		"sIsoCode": "CA-NB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "NL",
+		"sIsoCode": "CA-NL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "NS",
+		"sIsoCode": "CA-NS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "NT",
+		"sIsoCode": "CA-NT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "NU",
+		"sIsoCode": "CA-NU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "ON",
+		"sIsoCode": "CA-ON",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "PE",
+		"sIsoCode": "CA-PE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "QC",
+		"sIsoCode": "CA-QC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "SK",
+		"sIsoCode": "CA-SK",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "39",
+		"sCode": "YT",
+		"sIsoCode": "CA-YT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "AG",
+		"sIsoCode": "CH-AG",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "AI",
+		"sIsoCode": "CH-AI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "AR",
+		"sIsoCode": "CH-AR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "BE",
+		"sIsoCode": "CH-BE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "BL",
+		"sIsoCode": "CH-BL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "BS",
+		"sIsoCode": "CH-BS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "FR",
+		"sIsoCode": "CH-FR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "GE",
+		"sIsoCode": "CH-GE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "GL",
+		"sIsoCode": "CH-GL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "GR",
+		"sIsoCode": "CH-GR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "JU",
+		"sIsoCode": "CH-JU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "LU",
+		"sIsoCode": "CH-LU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "NE",
+		"sIsoCode": "CH-NE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "NW",
+		"sIsoCode": "CH-NW",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "OW",
+		"sIsoCode": "CH-OW",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "SG",
+		"sIsoCode": "CH-SG",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "SH",
+		"sIsoCode": "CH-SH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "SO",
+		"sIsoCode": "CH-SO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "SZ",
+		"sIsoCode": "CH-SZ",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "TG",
+		"sIsoCode": "CH-TG",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "TI",
+		"sIsoCode": "CH-TI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "UR",
+		"sIsoCode": "CH-UR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "VD",
+		"sIsoCode": "CH-VD",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "VS",
+		"sIsoCode": "CH-VS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "ZG",
+		"sIsoCode": "CH-ZG",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "41",
+		"sCode": "ZH",
+		"sIsoCode": "CH-ZH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "BB",
+		"sIsoCode": "DE-BB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "BE",
+		"sIsoCode": "DE-BE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "BW",
+		"sIsoCode": "DE-BW",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "BY",
+		"sIsoCode": "DE-BY",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "HB",
+		"sIsoCode": "DE-HB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "HE",
+		"sIsoCode": "DE-HE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "HH",
+		"sIsoCode": "DE-HH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "MV",
+		"sIsoCode": "DE-MV",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "NI",
+		"sIsoCode": "DE-NI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "NW",
+		"sIsoCode": "DE-NW",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "RP",
+		"sIsoCode": "DE-RP",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "SH",
+		"sIsoCode": "DE-SH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "SL",
+		"sIsoCode": "DE-SL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "SN",
+		"sIsoCode": "DE-SN",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "ST",
+		"sIsoCode": "DE-ST",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "59",
+		"sCode": "TH",
+		"sIsoCode": "DE-TH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "A",
+		"sIsoCode": "ES-A",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "AB",
+		"sIsoCode": "ES-AB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "AL",
+		"sIsoCode": "ES-AL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "AN",
+		"sIsoCode": "ES-AN",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "AR",
+		"sIsoCode": "ES-AR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "AS",
+		"sIsoCode": "ES-AS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "AV",
+		"sIsoCode": "ES-AV",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "B",
+		"sIsoCode": "ES-B",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "BA",
+		"sIsoCode": "ES-BA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "BI",
+		"sIsoCode": "ES-BI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "BU",
+		"sIsoCode": "ES-BU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "C",
+		"sIsoCode": "ES-C",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CA",
+		"sIsoCode": "ES-CA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CB",
+		"sIsoCode": "ES-CB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CC",
+		"sIsoCode": "ES-CC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CE",
+		"sIsoCode": "ES-CE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CL",
+		"sIsoCode": "ES-CL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CM",
+		"sIsoCode": "ES-CM",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CN",
+		"sIsoCode": "ES-CN",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CO",
+		"sIsoCode": "ES-CO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CR",
+		"sIsoCode": "ES-CR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CS",
+		"sIsoCode": "ES-CS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CT",
+		"sIsoCode": "ES-CT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "CU",
+		"sIsoCode": "ES-CU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "EX",
+		"sIsoCode": "ES-EX",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "GA",
+		"sIsoCode": "ES-GA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "GC",
+		"sIsoCode": "ES-GC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "GI",
+		"sIsoCode": "ES-GI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "GR",
+		"sIsoCode": "ES-GR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "GU",
+		"sIsoCode": "ES-GU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "H",
+		"sIsoCode": "ES-H",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "HU",
+		"sIsoCode": "ES-HU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "IB",
+		"sIsoCode": "ES-IB",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "J",
+		"sIsoCode": "ES-J",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "L",
+		"sIsoCode": "ES-L",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "LE",
+		"sIsoCode": "ES-LE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "LO",
+		"sIsoCode": "ES-LO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "LU",
+		"sIsoCode": "ES-LU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "M",
+		"sIsoCode": "ES-M",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "MA",
+		"sIsoCode": "ES-MA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "MC",
+		"sIsoCode": "ES-MC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "MD",
+		"sIsoCode": "ES-MD",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "ML",
+		"sIsoCode": "ES-ML",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "MU",
+		"sIsoCode": "ES-MU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "NA",
+		"sIsoCode": "ES-NA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "NC",
+		"sIsoCode": "ES-NC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "O",
+		"sIsoCode": "ES-O",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "OR",
+		"sIsoCode": "ES-OR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "P",
+		"sIsoCode": "ES-P",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "PM",
+		"sIsoCode": "ES-PM",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "PO",
+		"sIsoCode": "ES-PO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "PV",
+		"sIsoCode": "ES-PV",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "RI",
+		"sIsoCode": "ES-RI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "S",
+		"sIsoCode": "ES-S",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "SA",
+		"sIsoCode": "ES-SA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "SE",
+		"sIsoCode": "ES-SE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "SG",
+		"sIsoCode": "ES-SG",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "SO",
+		"sIsoCode": "ES-SO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "SS",
+		"sIsoCode": "ES-SS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "T",
+		"sIsoCode": "ES-T",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "TE",
+		"sIsoCode": "ES-TE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "TF",
+		"sIsoCode": "ES-TF",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "TO",
+		"sIsoCode": "ES-TO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "V",
+		"sIsoCode": "ES-V",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "VA",
+		"sIsoCode": "ES-VA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "VC",
+		"sIsoCode": "ES-VC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "VI",
+		"sIsoCode": "ES-VI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "Z",
+		"sIsoCode": "ES-Z",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "69",
+		"sCode": "ZA",
+		"sIsoCode": "ES-ZA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "AK",
+		"sIsoCode": "US-AK",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "AL",
+		"sIsoCode": "US-AL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "AR",
+		"sIsoCode": "US-AR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "AS",
+		"sIsoCode": "US-AS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "AZ",
+		"sIsoCode": "US-AZ",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "CA",
+		"sIsoCode": "US-CA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "CO",
+		"sIsoCode": "US-CO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "CT",
+		"sIsoCode": "US-CT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "DC",
+		"sIsoCode": "US-DC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "DE",
+		"sIsoCode": "US-DE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "FL",
+		"sIsoCode": "US-FL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "GA",
+		"sIsoCode": "US-GA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "GU",
+		"sIsoCode": "US-GU",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "HI",
+		"sIsoCode": "US-HI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "IA",
+		"sIsoCode": "US-IA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "ID",
+		"sIsoCode": "US-ID",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "IL",
+		"sIsoCode": "US-IL",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "IN",
+		"sIsoCode": "US-IN",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "KS",
+		"sIsoCode": "US-KS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "KY",
+		"sIsoCode": "US-KY",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "LA",
+		"sIsoCode": "US-LA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MA",
+		"sIsoCode": "US-MA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MD",
+		"sIsoCode": "US-MD",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "ME",
+		"sIsoCode": "US-ME",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MI",
+		"sIsoCode": "US-MI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MN",
+		"sIsoCode": "US-MN",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MO",
+		"sIsoCode": "US-MO",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MP",
+		"sIsoCode": "US-MP",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MS",
+		"sIsoCode": "US-MS",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "MT",
+		"sIsoCode": "US-MT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NC",
+		"sIsoCode": "US-NC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "ND",
+		"sIsoCode": "US-ND",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NE",
+		"sIsoCode": "US-NE",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NH",
+		"sIsoCode": "US-NH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NJ",
+		"sIsoCode": "US-NJ",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NM",
+		"sIsoCode": "US-NM",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NV",
+		"sIsoCode": "US-NV",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "NY",
+		"sIsoCode": "US-NY",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "OH",
+		"sIsoCode": "US-OH",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "OK",
+		"sIsoCode": "US-OK",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "OR",
+		"sIsoCode": "US-OR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "PA",
+		"sIsoCode": "US-PA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "PR",
+		"sIsoCode": "US-PR",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "RI",
+		"sIsoCode": "US-RI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "SC",
+		"sIsoCode": "US-SC",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "SD",
+		"sIsoCode": "US-SD",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "TN",
+		"sIsoCode": "US-TN",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "TX",
+		"sIsoCode": "US-TX",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "UM",
+		"sIsoCode": "US-UM",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "UT",
+		"sIsoCode": "US-UT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "VA",
+		"sIsoCode": "US-VA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "VI",
+		"sIsoCode": "US-VI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "VT",
+		"sIsoCode": "US-VT",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "WA",
+		"sIsoCode": "US-WA",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "WI",
+		"sIsoCode": "US-WI",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "WV",
+		"sIsoCode": "US-WV",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	},
+	{
+		"fkiAddressCountryId": "234",
+		"sCode": "WY",
+		"sIsoCode": "US-WY",
+		"bDeleted": "0",
+		"iCreation": 1504901223,
+		"iModification": 1504901223
+	}
+]

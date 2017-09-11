@@ -1,0 +1,65 @@
+[
+	{
+		"fkiOrganisationId": "0",
+		"fkiParentClassId": "1",
+		"iGabaritId": "1",
+		"sClassName": "ROOT",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	},
+	{
+		"fkiOrganisationId": "1",
+		"fkiParentClassId": "1",
+		"iGabaritId": "",
+		"sClassName": "Base de connaissance",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	},
+	{
+		"fkiOrganisationId": "1",
+		"fkiParentClassId": "1",
+		"iGabaritId": "2",
+		"sClassName": "Bottin des r\u00e9cup\u00e9rateurs",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	},
+	{
+		"fkiOrganisationId": "1",
+		"fkiParentClassId": "2",
+		"iGabaritId": "",
+		"sClassName": "Direction",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	},
+	{
+		"fkiOrganisationId": "1",
+		"fkiParentClassId": "4",
+		"iGabaritId": "",
+		"sClassName": "Division",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	},
+	{
+		"fkiOrganisationId": "1",
+		"fkiParentClassId": "5",
+		"iGabaritId": "",
+		"sClassName": "Type",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	},
+	{
+		"fkiOrganisationId": "1",
+		"fkiParentClassId": "6",
+		"iGabaritId": "",
+		"sClassName": "Sous-Type",
+		"bDeleted": "0",
+		"iCreation": 1504904417,
+		"iModification": 1504904417
+	}
+]

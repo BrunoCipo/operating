@@ -1,0 +1,26 @@
+[
+	{
+		"fkiOrganisationId": "",
+		"sName": "{\"fre\":\"Document\", \"eng\":\"Document\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	},
+	{
+		"fkiOrganisationId": "",
+		"sName": "{\"fre\":\"Usager\", \"eng\":\"User\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	},
+	{
+		"fkiOrganisationId": "",
+		"sName": "{\"fre\":\"V\u00e9hicule\", \"eng\":\"Vehicle\"}",
+		"sDescription": "{\"fre\":\"V\u00e9hicule\", \"eng\":\"Vehicle\"}",
+		"bDeleted": "0",
+		"iCreation": 1504902883,
+		"iModification": 1504902883
+	}
+]
