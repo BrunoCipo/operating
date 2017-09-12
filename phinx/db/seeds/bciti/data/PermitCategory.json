@@ -1,0 +1,72 @@
+[
+{
+"fkiOrganisationId":"2",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Centre ville\",\"eng\":\"Centre ville\"}",
+"sDescription":"{}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"6",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Vert\",\"eng\":\"Green\"}",
+"sDescription":"{\"fre\":\"Catégorie vert permettant l’accès à un espace réservé d’un parc spécifique\",\"eng\":\"Catégorie vert permettant l’accès à un espace réservé d’un parc spécifique\"}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"6",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Jaune\",\"eng\":\"Yellow\"}",
+"sDescription":"{\"fre\":\"Catégorie jaune permettant l’accès à tous les espaces non réservés\",\"eng\":\"Catégorie jaune permettant l’accès à tous les espaces non réservés\"}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"6",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Rouge\",\"eng\":\"Red\"}",
+"sDescription":"{\"fre\":\"Catégorie rouge pour les résidents seulement\",\"eng\":\"Catégorie rouge pour les résidents seulement\"}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"2",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Plateau Marquette\", \"eng\":\"Plateau Marquette\"}",
+"sDescription":"{}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"2",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Plateau Sylvie-Daigle CEGEP\", \"eng\":\"Plateau Sylvie-Daigle CEGEP\"}",
+"sDescription":"{}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"2",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Résident arrondissement de Fleurimont\", \"eng\":\"Résident arrondissement de Fleurimont\"}",
+"sDescription":"{}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"2",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Résident arrondissement de Jacques-Cartier\", \"eng\":\"Résident arrondissement de Jacques-Cartier\"}",
+"sDescription":"{}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"2",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Résident arrondissement du Mont-Bellevue\", \"eng\":\"Résident arrondissement du Mont-Bellevue\"}",
+"sDescription":"{}",
+"bDeleted":"0"
+},
+{
+"fkiOrganisationId":"6",
+"iPermitTypeId":"2",
+"sName":"{\"fre\":\"Moto\",\"eng\":\"Moto\"}",
+"sDescription":"{\"fre\":\"Catégorie pour motocyclette seulement\",\"eng\":\"Catégorie pour motocyclette seulement\"}",
+"bDeleted":"0"
+}
+]

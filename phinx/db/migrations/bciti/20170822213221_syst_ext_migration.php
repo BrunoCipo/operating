@@ -419,6 +419,41 @@ class SystExtMigration extends AbstractMigration
 	}
 	
 	private function vCreateSystExtSomum(){
-	
+		
+		$this->table('SystExtSomum', [ 'id'=> false, 'primary_key' => [ 'id' ] ] )
+			->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
+
+            ->addColumn('googleid'  ,            'string',       [ 'null'    => false,    'length' => 255 ] )
+            ->addColumn('nom'       ,            'string',       [ 'null'    => false,    'length' => 100 ] )
+            ->addColumn('prenom'    ,            'string',       [ 'null'    => false,    'length' => 100 ] )
+            ->addColumn('nocivique' ,            'integer',      [ 'null'    => false  ] )
+            ->addColumn('appt'      ,            'string',       [ 'null'    => false,    'length' => 30 ] )
+            ->addColumn('rue'       ,            'string',       [ 'null'    => false,    'length' => 100 ] )
+            ->addColumn('ville'     ,            'string',       [ 'null'    => false,    'length' => 100 ] )
+            ->addColumn('codepostal',            'string',       [ 'null'    => false,    'length' => 10  ] )
+            ->addColumn('nbcoord'   ,            'integer',      [ 'null'    => false  ] )
+            ->addColumn('coord1'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste1'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type1'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('coord2'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste2'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type2'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('coord3'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste3'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type3'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('coord4'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste4'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type4'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('coord5'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste5'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type5'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('coord6'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste6'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type6'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('coord7'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('poste7'    ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+            ->addColumn('type7'     ,            'string',       [ 'null'    => false,    'length' => 70 ] )
+			
+			->create();
 	}
 }

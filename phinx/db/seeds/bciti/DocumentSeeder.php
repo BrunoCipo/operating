@@ -32,7 +32,8 @@ class DocumentSeeder extends AbstractSeed
 			    'fkiOrganisationId'         => $oRow->fkiOrganisationId,
 			    'iTypeId'                   => $oRow->iTypeId,
 			    'sName'                     => $oRow->sName,
-			    'sClassName'                => $oRow->sClassName,
+			    'sDescription'              => $oRow->sDescription,
+			    'iExpirationTimeInSeconds'  => $oRow->iExpirationTimeInSeconds,
 			    
 			    'bDeleted'                  => $oRow->bDeleted,
 			    'iCreation'                 => time(),
@@ -43,8 +44,8 @@ class DocumentSeeder extends AbstractSeed
 	
 	    array_multisort(
 		    array_column($aData,"fkiOrganisationId"), SORT_ASC, SORT_NUMERIC,
-		    array_column($aData,"fkiParentClassId"), SORT_ASC, SORT_NUMERIC,
-		    array_column($aData,"iGabaritId"), SORT_ASC, SORT_NUMERIC,
+		    array_column($aData,"iTypeId"), SORT_ASC, SORT_NUMERIC,
+		    array_column($aData,"sName"), SORT_ASC,
 		    $aData
 	    );
 	

@@ -48,7 +48,7 @@ class KbTreeClassStructureSeeder extends AbstractSeed
 		    $aData
 	    );
 	
-	    file_put_contents(__DIR__ . "/data/" . $tableName . ".json", json_encode($aData));
+	    //file_put_contents(__DIR__ . "/data/" . $tableName . ".json", json_encode($aData));
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();

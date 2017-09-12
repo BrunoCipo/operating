@@ -1,0 +1,35 @@
+[
+	{
+		"fkiOrganisationId": "2",
+		"iUnitTimeId": "6",
+		"iStartCountId": "1",
+		"iWaitingTimeInSeconds": "0",
+		"sName": "{\"fre\":\"prorata du mois en cours compris\",\"eng\":\"prorated to the current month included\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505226597,
+		"iModification": 1505226597
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iUnitTimeId": "6",
+		"iStartCountId": "1",
+		"iWaitingTimeInSeconds": "432000",
+		"sName": "{\"fre\":\"prorata du mois en cours compris avec 5 jours de d\u00e9lai de carence\",\"eng\":\"prorated to the current month included with 5 days waiting delay\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505226597,
+		"iModification": 1505226597
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iUnitTimeId": "6",
+		"iStartCountId": "1",
+		"iWaitingTimeInSeconds": "2592000",
+		"sName": "{\"fre\":\"prorata du mois en cours compris avec 30 jours de d\u00e9lai de carence\",\"eng\":\"prorated to the current month included with 30 days waiting delay\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505226597,
+		"iModification": 1505226597
+	}
+]

@@ -1,0 +1,164 @@
+[
+	{
+		"fkiOrganisationId": "1",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"Carte de cr\u00e9dit\",\"eng\":\"Credit card\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "1",
+		"iTypeId": "2",
+		"sName": "{\"fre\":\"Carte de d\u00e9bit\",\"eng\":\"Debit card\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "1",
+		"iTypeId": "3",
+		"sName": "{\"fre\":\"Comptant\",\"eng\":\"Cash\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "1",
+		"iTypeId": "4",
+		"sName": "{\"fre\":\"Ch\u00e8que\",\"eng\":\"Cheque\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"Carte de cr\u00e9dit\",\"eng\":\"Credit card\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iTypeId": "2",
+		"sName": "{\"fre\":\"Carte de d\u00e9bit\",\"eng\":\"Debit card\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iTypeId": "3",
+		"sName": "{\"fre\":\"Comptant\",\"eng\":\"Cash\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iTypeId": "4",
+		"sName": "{\"fre\":\"Ch\u00e8que\",\"eng\":\"Cheque\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iTypeId": "8",
+		"sName": "{\"fre\":\"Ch\u00e8que post-dat\u00e9\",\"eng\":\"Post-dated cheque\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"Carte de cr\u00e9dit\",\"eng\":\"Credit card\"}",
+		"sDescription": "{\"fre\":\"Transaction via la plateforme web Monetico de Desjardins.\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s la r\u00e9ception du paiement.\", \"eng\":\"Transaction via la plateforme web Monetico de Desjardins.\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s la r\u00e9ception du paiement.\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "2",
+		"sName": "{\"fre\":\"Carte de d\u00e9bit\",\"eng\":\"Debit card\"}",
+		"sDescription": "{\"fre\":\"Pr\u00e9sentez-vous au comptoir du Centre de gestion des d\u00e9placements (Pavillon Multifonctionnel, local B5-0007) pour compl\u00e9ter la transaction.\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s la r\u00e9ception du paiement.\", \"eng\":\"Pr\u00e9sentez-vous au comptoir du Centre de gestion des d\u00e9placements (Pavillon Multifonctionnel, local B5-0007) pour compl\u00e9ter la transaction.\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s la r\u00e9ception du paiement.\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "3",
+		"sName": "{\"fre\":\"Comptant\",\"eng\":\"Cash\"}",
+		"sDescription": "{\"fre\":\"Pr\u00e9sentez-vous au comptoir du Centre de gestion des d\u00e9placements (Pavillon Multifonctionnel, local B5-0007) pour compl\u00e9ter la transaction.\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s la r\u00e9ception du paiement.\", \"eng\":\"Pr\u00e9sentez-vous au comptoir du Centre de gestion des d\u00e9placements (Pavillon Multifonctionnel, local B5-0007) pour compl\u00e9ter la transaction.\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s la r\u00e9ception du paiement.\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "4",
+		"sName": "{\"fre\":\"Ch\u00e8que\",\"eng\":\"Cheque\"}",
+		"sDescription": "{\"fre\":\"Pr\u00e9sentez-vous au comptoir du Centre de gestion des d\u00e9placements (Pavillon Multifonctionnel, local B5-0007) pour remettre le ch\u00e8que libell\u00e9 \u00e0 l\u2019ordre de l\u2019Universit\u00e9 de Sherbrooke.\\nNote : Votre droit de stationnement sera approuv\u00e9 \u00e0 l\u2019encaisse du ch\u00e8que.\", \"eng\":\"Pr\u00e9sentez-vous au comptoir du Centre de gestion des d\u00e9placements (Pavillon Multifonctionnel, local B5-0007) pour remettre le ch\u00e8que libell\u00e9 \u00e0 l\u2019ordre de l\u2019Universit\u00e9 de Sherbrooke.\\nNote : Votre droit de stationnement sera approuv\u00e9 \u00e0 l\u2019encaisse du ch\u00e8que.\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "6",
+		"sName": "{\"fre\":\"Pr\u00e9l\u00e8vement \u00e0 la source\", \"eng\": \"Debit at source\"}",
+		"sDescription": "{\"fre\":\"Retenue sur le salaire par pr\u00e9l\u00e8vements \u00e9gaux (5, 10 ou 20 versements).\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s l\u2019acceptation de la demande par le Service des ressources financi\u00e8res de l\u2019Universit\u00e9 de Sherbrooke.\", \"eng\":\"Retenue sur le salaire par pr\u00e9l\u00e8vements \u00e9gaux (5, 10 ou 20 versements).\\nNote : Votre droit de stationnement sera approuv\u00e9 d\u00e8s l\u2019acceptation de la demande par le Service des ressources financi\u00e8res de l\u2019Universit\u00e9 de Sherbrooke.\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "10",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"Carte de cr\u00e9dit\",\"eng\":\"Credit card\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "10",
+		"iTypeId": "2",
+		"sName": "{\"fre\":\"Carte de d\u00e9bit\",\"eng\":\"Debit card\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "10",
+		"iTypeId": "3",
+		"sName": "{\"fre\":\"Comptant\",\"eng\":\"Cash\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "10",
+		"iTypeId": "4",
+		"sName": "{\"fre\":\"Ch\u00e8que\",\"eng\":\"Cheque\"}",
+		"sDescription": "{\"fre\":\"\", \"eng\":\"\"}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	}
+]

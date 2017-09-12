@@ -1,0 +1,66 @@
+[
+	{
+		"fkiOrganisationId": "1",
+		"sName": "{\"fre\":\"TPS\",\"eng\":\"GST\"}",
+		"dRate": "5",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "1",
+		"sName": "{\"fre\":\"TVQ\",\"eng\":\"HST\"}",
+		"dRate": "9.975",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "2",
+		"sName": "{\"fre\":\"TPS\",\"eng\":\"GST\"}",
+		"dRate": "5",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "2",
+		"sName": "{\"fre\":\"TVQ\",\"eng\":\"HST\"}",
+		"dRate": "9.975",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "6",
+		"sName": "{\"fre\":\"TPS\",\"eng\":\"GST\"}",
+		"dRate": "5",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "6",
+		"sName": "{\"fre\":\"TVQ\",\"eng\":\"HST\"}",
+		"dRate": "9.975",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "10",
+		"sName": "{\"fre\":\"TPS\",\"eng\":\"GST\"}",
+		"dRate": "5",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	},
+	{
+		"fkiOrganisationId": "10",
+		"sName": "{\"fre\":\"TVQ\",\"eng\":\"HST\"}",
+		"dRate": "9.975",
+		"bDeleted": "0",
+		"iCreation": 1505237691,
+		"iModification": 1505237691
+	}
+]
