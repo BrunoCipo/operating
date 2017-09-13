@@ -51,6 +51,7 @@ class ActiviteSeeder extends AbstractSeed
 	    $table->truncate();
 	    $table->insert($aData)->save();
 	
+	    echo("===> " . $tableName . "-> Ok\n");
     }
     
     private function vActiviteLieu(){
@@ -90,6 +91,8 @@ class ActiviteSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
+	
     }
 	
 

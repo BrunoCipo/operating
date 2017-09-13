@@ -56,6 +56,7 @@ class NotificationSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	
@@ -93,6 +94,7 @@ class NotificationSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	
@@ -132,6 +134,7 @@ class NotificationSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	

@@ -57,6 +57,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "->Ok");
 	
     }
 
@@ -91,6 +92,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
     
@@ -125,6 +127,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
     
@@ -159,6 +162,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
     
@@ -194,6 +198,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
     
@@ -228,6 +233,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
     
@@ -262,6 +268,7 @@ class AddressSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
     

@@ -53,6 +53,7 @@ class DocumentSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	

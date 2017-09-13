@@ -52,6 +52,7 @@ class PaymentSeeder extends AbstractSeed
 		
 		$table->truncate();
 		$table->insert($aData)->save();
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	
@@ -88,6 +89,7 @@ class PaymentSeeder extends AbstractSeed
 		
 		$table->truncate();
 		$table->insert($aData)->save();
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	

@@ -50,6 +50,7 @@ class ConstraintSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	
@@ -90,6 +91,7 @@ class ConstraintSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	

@@ -2,7 +2,7 @@
 
 use Phinx\Seed\AbstractSeed;
 
-class SystExtSeeder extends AbstractSeed
+class systExtSeeder extends AbstractSeed
 {
 	
 	/**
@@ -21,13 +21,24 @@ class SystExtSeeder extends AbstractSeed
     }
 	
 	private function vSystExtAcceoLudikFamille(){
-		
+		echo ("=====>  toto 01\n");
 		$tableName = "SystExtAcceoLudikFamille";
 		$oRows = json_decode(file_get_contents(__DIR__ . "/data/" . $tableName . ".json"));
+		echo ("=====>  toto 02\n");
 		$table = $this->table($tableName);
+		echo ("=====>  toto 03\n");
 		$aData = [];
 		
+		$table->truncate();
+		
+		$i = 0;
 		foreach ($oRows as $oRow){
+			
+			if (++$i % 1000 == 0){
+				echo ("=====> Insert Batch -------> " . $i . "\n");
+				$table->insert($aData)->save();
+				$aData = [];
+			}
 			
 			array_push($aData, [
 				'sIdentifiantNumero1'                   => $oRow->sIdentifiantNumero1,
@@ -41,18 +52,10 @@ class SystExtSeeder extends AbstractSeed
 			
 		}
 		
-//      Fichier trop gros pour le tri en mémoire
-//		array_multisort(
-//			array_column($aData,"sIdentifiantNumero1"), SORT_ASC, SORT_NUMERIC,
-//			array_column($aData,"sIdentifiantNumero2"), SORT_ASC, SORT_NUMERIC,
-//			array_column($aData,"iUserRelationType"), SORT_ASC, SORT_NUMERIC,
-//			$aData
-//		);
-//
-//		file_put_contents(__DIR__ . "/data/" . $tableName . ".json", json_encode($aData));
-		
-		$table->truncate();
 		$table->insert($aData)->save();
+
+		echo ("=====>  Total Insert: " . $i . "\n");
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	
@@ -89,6 +92,7 @@ class SystExtSeeder extends AbstractSeed
 		
 		$table->truncate();
 		$table->insert($aData)->save();
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	
@@ -109,43 +113,36 @@ class SystExtSeeder extends AbstractSeed
 				'appt'            => $oRow->appt,
 				'rue'             => $oRow->rue,
 				'ville'           => $oRow->codepostal,
-                'codepostal'      => $oRow->codepostal,
-                'nbcoord'         => $oRow->nbcoord,
-                'coord1'          => $oRow->coord1,
-                'poste1'          => $oRow->poste1,
-                'type1'           => $oRow->type1,
-                'coord2'          => $oRow->coord2,
-                'poste2'          => $oRow->poste2,
-                'type2'           => $oRow->type2,
-                'coord3'          => $oRow->coord3,
-                'poste3'          => $oRow->poste3,
-                'type3'           => $oRow->type3,
-                'coord4'          => $oRow->coord4,
-                'poste4'          => $oRow->poste4,
-                'type4'           => $oRow->type4,
-                'coord5'          => $oRow->coord5,
-                'poste5'          => $oRow->poste5,
-                'type5'           => $oRow->type5,
-                'coord6'          => $oRow->coord6,
-                'poste6'          => $oRow->poste6,
-                'type6'           => $oRow->type6,
-                'coord7'          => $oRow->coord7,
-                'poste7'          => $oRow->poste7,
-                'type7'           => $oRow->type7
+				'codepostal'      => $oRow->codepostal,
+				'nbcoord'         => $oRow->nbcoord,
+				'coord1'          => $oRow->coord1,
+				'poste1'          => $oRow->poste1,
+				'type1'           => $oRow->type1,
+				'coord2'          => $oRow->coord2,
+				'poste2'          => $oRow->poste2,
+				'type2'           => $oRow->type2,
+				'coord3'          => $oRow->coord3,
+				'poste3'          => $oRow->poste3,
+				'type3'           => $oRow->type3,
+				'coord4'          => $oRow->coord4,
+				'poste4'          => $oRow->poste4,
+				'type4'           => $oRow->type4,
+				'coord5'          => $oRow->coord5,
+				'poste5'          => $oRow->poste5,
+				'type5'           => $oRow->type5,
+				'coord6'          => $oRow->coord6,
+				'poste6'          => $oRow->poste6,
+				'type6'           => $oRow->type6,
+				'coord7'          => $oRow->coord7,
+				'poste7'          => $oRow->poste7,
+				'type7'           => $oRow->type7
 			]);
 			
 		}
 		
-		array_multisort(
-			array_column($aData,'nom'), SORT_ASC,
-			array_column($aData,'prenom'), SORT_ASC,
-			$aData
-		);
-		
-		//file_put_contents(__DIR__ . '/data/' . $tableName . '.json', json_encode($aData));
-		
 		$table->truncate();
 		$table->insert($aData)->save();
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	

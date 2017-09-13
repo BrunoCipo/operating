@@ -49,6 +49,7 @@ class OrganisationSeeder extends AbstractSeed
 	
 	    $table->truncate();
 	    $table->insert($aData)->save();
+	    echo("===> " . $tableName . "-> Ok\n");
 	
     }
 	
@@ -85,6 +86,7 @@ class OrganisationSeeder extends AbstractSeed
 		
 		$table->truncate();
 		$table->insert($aData)->save();
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	
@@ -120,6 +122,7 @@ class OrganisationSeeder extends AbstractSeed
 		
 		$table->truncate();
 		$table->insert($aData)->save();
+		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
 	

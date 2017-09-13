@@ -134,6 +134,14 @@ class AddressCountriesSeeder extends AbstractSeed
         $oAddressStreetNumbers = $this->table('AddressStreetNumber');
         $oAddress = $this->table('AddressBase');
 
+        $oAddressCity->truncate();
+        $oAddressCityNames->truncate();
+        $oAddressPostalCode->truncate();
+        $oAddressStreet->truncate();
+        $oAddressStreetNames->truncate();
+        $oAddressStreetNumbers->truncate();
+        $oAddress->truncate();
+
 
         $oAddressCity->insert($aCityData)->save();
         $oAddressCityNames->insert($aCityNameData)->save();
@@ -247,6 +255,9 @@ class AddressCountriesSeeder extends AbstractSeed
 
         $oAddressCountries = $this->table('AddressCountry');
         $oAddressCountryNames = $this->table('AddressCountryName');
+ 
+        $oAddressCountries->truncate();
+        $oAddressCountryNames->truncate();
         $oAddressCountries->insert($aData)->save();
         $oAddressCountryNames->insert($aNameData)->save();
     }
@@ -305,6 +316,9 @@ class AddressCountriesSeeder extends AbstractSeed
 
             $oAddressRegions = $this->table('AddressRegion');
             $oAddressRegionNames = $this->table('AddressRegionName');
+            $oAddressRegions->truncate();
+            $oAddressRegionNames->truncate();
+            
             $oAddressRegions->insert($aData)->save();
             $oAddressRegionNames->insert($aNameData)->save();
         }
