@@ -22,13 +22,15 @@ class CartMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
 			->addColumn('iType', MysqlAdapter::PHINX_TYPE_INTEGER, array('signed' => false))
 			->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
-			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_STRING, array('signed' => false, 'null' => true))
+			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 			->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 			->addIndex('bDeleted', array('name' => 'idx_deleted'))
 			->addIndex('fkiOrganisationId', array('name' => 'idx_organisation'))
 			->addIndex('fkiUserId', array('name' => 'idx_user'))
 			->create();
 	}
+
+
 
 	protected function CreateCartItemTables(){
 
@@ -40,7 +42,7 @@ class CartMigration extends AbstractMigration
 			->addColumn('sType', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 30))
 			->addColumn('iTypeInstanceId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
 			->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN,array('signed' => false))
-			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_STRING, array('signed' => false, 'null' => true))
+			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 			->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 			->addIndex('bDeleted', array('name' => 'idx_deleted'))
 			->addIndex('fkiCartId', array('name' => 'idx_Cart'))
