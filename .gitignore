@@ -2,7 +2,6 @@
 #########
 /phinx/composer.lock
 /phinx/vendor/
-/phinx/phinx.yml
 
 # PHP7cc #
 #########

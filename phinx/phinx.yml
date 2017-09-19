@@ -1,0 +1,26 @@
+paths:
+    migrations: %%PHINX_CONFIG_DIR%%/db/migrations/bciti
+    seeds: %%PHINX_CONFIG_DIR%%/db/seeds/bciti
+
+environments:
+    default_migration_table: Op_PhinxLog
+    default_database: dev
+
+    dev:
+        adapter: mysql
+        host: localhost
+        name: BCITI
+        user: root
+        pass: 'root'
+        port: 3306
+        charset: utf8
+
+    test:
+        adapter: sqlsrv
+        host: bciti1.database.windows.net
+        name: bcititest1
+        user: bciti
+        pass: 'tegus9%4TEQ'
+        charset: 65001
+
+version_order: creation
