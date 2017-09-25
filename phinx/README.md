@@ -1,4 +1,4 @@
-#Présentation
+# Présentation
 
 Phinx est un outil de gestion et migrations de base de données. Il permet de s'adapter facilement à différents systèmes de gestions des bases de données (MySQL, MS SQL, PostgreSQL,...).
 Site du projet : https://phinx.org/
