@@ -21,13 +21,12 @@ class systExtSeeder extends AbstractSeed
     }
 	
 	private function vSystExtAcceoLudikFamille(){
-		echo ("=====>  toto 01\n");
 		$tableName = "SystExtAcceoLudikFamille";
 		$oRows = json_decode(file_get_contents(__DIR__ . "/data/" . $tableName . ".json"));
-		echo ("=====>  toto 02\n");
 		$table = $this->table($tableName);
-		echo ("=====>  toto 03\n");
 		$aData = [];
+		
+		echo("===> Table " . $tableName . "\n");
 		
 		$table->truncate();
 		
@@ -35,7 +34,7 @@ class systExtSeeder extends AbstractSeed
 		foreach ($oRows as $oRow){
 			
 			if (++$i % 1000 == 0){
-				echo ("=====> Insert Batch -------> " . $i . "\n");
+				echo ("=====> Batch inserts -------> " . $i . "\n");
 				$table->insert($aData)->save();
 				$aData = [];
 			}
@@ -96,52 +95,64 @@ class systExtSeeder extends AbstractSeed
 		
 	}
 	
-	private function vSystExtSomum(){
+	private function vSystExtSomum()
+	{
 		
 		$tableName = 'SystExtSomum';
 		$oRows = json_decode(file_get_contents(__DIR__ . '/data/' . $tableName . '.json'));
 		$table = $this->table($tableName);
 		$aData = [];
 		
-		foreach ($oRows as $oRow){
-			
-			array_push($aData, [
-				'googleid'        => $oRow->googleid,
-				'nom'             => $oRow->nom,
-				'prenom'          => $oRow->prenom,
-				'nocivique'       => $oRow->nocivique,
-				'appt'            => $oRow->appt,
-				'rue'             => $oRow->rue,
-				'ville'           => $oRow->codepostal,
-				'codepostal'      => $oRow->codepostal,
-				'nbcoord'         => $oRow->nbcoord,
-				'coord1'          => $oRow->coord1,
-				'poste1'          => $oRow->poste1,
-				'type1'           => $oRow->type1,
-				'coord2'          => $oRow->coord2,
-				'poste2'          => $oRow->poste2,
-				'type2'           => $oRow->type2,
-				'coord3'          => $oRow->coord3,
-				'poste3'          => $oRow->poste3,
-				'type3'           => $oRow->type3,
-				'coord4'          => $oRow->coord4,
-				'poste4'          => $oRow->poste4,
-				'type4'           => $oRow->type4,
-				'coord5'          => $oRow->coord5,
-				'poste5'          => $oRow->poste5,
-				'type5'           => $oRow->type5,
-				'coord6'          => $oRow->coord6,
-				'poste6'          => $oRow->poste6,
-				'type6'           => $oRow->type6,
-				'coord7'          => $oRow->coord7,
-				'poste7'          => $oRow->poste7,
-				'type7'           => $oRow->type7
-			]);
-			
-		}
+		echo("===> Table " . $tableName . "\n");
 		
 		$table->truncate();
+		
+		$i = 0;
+		foreach ($oRows as $oRow) {
+			
+			if (++$i % 1000 == 0) {
+				echo("=====> Batch inserts -------> " . $i . "\n");
+				$table->insert($aData)->save();
+				$aData = [];
+			}
+			
+			array_push($aData, [
+				'googleid' => $oRow->googleid,
+				'nom' => $oRow->nom,
+				'prenom' => $oRow->prenom,
+				'nocivique' => $oRow->nocivique,
+				'appt' => $oRow->appt,
+				'rue' => $oRow->rue,
+				'ville' => $oRow->codepostal,
+				'codepostal' => $oRow->codepostal,
+				'nbcoord' => $oRow->nbcoord,
+				'coord1' => $oRow->coord1,
+				'poste1' => $oRow->poste1,
+				'type1' => $oRow->type1,
+				'coord2' => $oRow->coord2,
+				'poste2' => $oRow->poste2,
+				'type2' => $oRow->type2,
+				'coord3' => $oRow->coord3,
+				'poste3' => $oRow->poste3,
+				'type3' => $oRow->type3,
+				'coord4' => $oRow->coord4,
+				'poste4' => $oRow->poste4,
+				'type4' => $oRow->type4,
+				'coord5' => $oRow->coord5,
+				'poste5' => $oRow->poste5,
+				'type5' => $oRow->type5,
+				'coord6' => $oRow->coord6,
+				'poste6' => $oRow->poste6,
+				'type6' => $oRow->type6,
+				'coord7' => $oRow->coord7,
+				'poste7' => $oRow->poste7,
+				'type7' => $oRow->type7
+			]);
+
+		}
+		
 		$table->insert($aData)->save();
+		echo("=====>  Total Insert: " . $i . "\n");
 		echo("===> " . $tableName . "-> Ok\n");
 		
 	}
