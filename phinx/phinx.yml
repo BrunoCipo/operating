@@ -15,12 +15,4 @@ environments:
         port: 3306
         charset: utf8
 
-    test:
-        adapter: sqlsrv
-        host: bciti1.database.windows.net
-        name: bcititest1
-        user: bciti
-        pass: 'tegus9%4TEQ'
-        charset: 65001
-
 version_order: creation
