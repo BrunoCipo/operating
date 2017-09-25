@@ -67,7 +67,7 @@ class TransactionMigration extends AbstractMigration
 			->addColumn('iSousTotal',                   'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTPS',                         'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTVQ',                         'biginteger',   [ 'null'    => true  ] )
-			->addColumn('iTViTotalQ',                   'biginteger',   [ 'null'    => true  ] )
+			->addColumn('iTotal',                       'biginteger',   [ 'null'    => true  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -86,12 +86,12 @@ class TransactionMigration extends AbstractMigration
 			->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sNom',                         'string',       [ 'null'    => true  ] )
-			->addColumn('sDescription',                 'string',       [ 'null'    => true  ] )
+			->addColumn('sNom',                         'string',       [ 'null'    => true,    'length' => 1073741823  ] )
+			->addColumn('sDescription',                 'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			->addColumn('iSousTotal',                   'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTPS',                         'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTVQ',                         'biginteger',   [ 'null'    => true  ] )
-			->addColumn('iTViTotalQ',                   'biginteger',   [ 'null'    => true  ] )
+			->addColumn('iTotal',                       'biginteger',   [ 'null'    => true  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

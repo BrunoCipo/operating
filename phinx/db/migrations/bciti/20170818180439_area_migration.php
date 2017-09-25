@@ -31,9 +31,9 @@ class AreaMigration extends AbstractMigration
 		    ->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 		
 		    ->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false  ] )
-		    ->addColumn('sName',                        'string',       [ 'null'    => false  ] )
-		    ->addColumn('sDescription',                 'string',       [ 'null'    => false  ] )
-		    ->addColumn('sGeoPointList',                'string',       [ 'null'    => false  ] )
+		    ->addColumn('sName',                        'string',       [ 'null'    => false, 'length' => 1073741823  ] )
+		    ->addColumn('sDescription',                 'string',       [ 'null'    => false, 'length' => 1073741823  ] )
+		    ->addColumn('sGeoPointList',                'string',       [ 'null'    => false, 'length' => 1073741823  ] )
 
 		
 		    ->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )

@@ -1,0 +1,230 @@
+[
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Biblioth\u00e8que\",\"eng\":\"Library\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Contact\",\"eng\":\"Contact\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Loisirs\",\"eng\":\"Hobbies\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Ma carte\",\"eng\":\"My card\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Mon profil\", \"eng\":\"My profile\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Permis\",\"eng\":\"Permit\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Services\", \"eng\":\"Services\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "",
+		"sText": "{\"fre\": \"Stationnement\",\"eng\":\"Parking\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/accueil",
+		"sText": "{\"fre\": \"Accueil\", \"eng\":\"Home\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/activites\/inscription",
+		"sText": "{\"fre\": \"Mes activit\u00e9s\", \"eng\":\"My activities\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/activitesLong",
+		"sText": "{\"fre\": \"Mes activit\u00e9s\",\"eng\":\"My activities\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/activitesSportPlus",
+		"sText": "{\"fre\": \"Mes activit\u00e9s\",\"eng\":\"My activities\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/alertes",
+		"sText": "{\"fre\": \"Avis\", \"eng\":\"Notices\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/avis",
+		"sText": "{\"fre\": \"Avis\",\"eng\":\"Notice\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/baseconnaissance",
+		"sText": "{\"fre\": \"Banque de connaissance\",\"eng\":\"Knowledge base\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/bibliotheque",
+		"sText": "{\"fre\": \"Biblioth\u00e8que(s)\",\"eng\":\"Library(ies)\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/bottinrecuperateur",
+		"sText": "{\"fre\": \"Bottin des r\u00e9cup\u00e9rateurs\",\"eng\":\"Electronic waste disposal directory\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/carte\/adhesion",
+		"sText": "{\"fre\": \"Adh\u00e9rer \u00e0 une carte\",\"eng\":\"Subscribe to a card\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/carte\/consulter",
+		"sText": "{\"fre\": \"Voir ma carte\",\"eng\":\"See my card\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/carte\/famille",
+		"sText": "{\"fre\": \"Ma famille\",\"eng\":\"My family\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/carte\/lier",
+		"sText": "{\"fre\": \"Lier une carte\",\"eng\":\"Link a card\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/changermotdepasse",
+		"sText": "{\"fre\": \"Mot de passe\", \"eng\":\"Password\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/consultations",
+		"sText": "{\"fre\": \"Consultations\",\"eng\":\"Consultations\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/contact",
+		"sText": "{\"fre\": \"Requ\u00eate\",\"eng\":\"Request\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/factures",
+		"sText": "{\"fre\": \"Mes factures\", \"eng\":\"My invoices\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/sondages",
+		"sText": "{\"fre\": \"Sondages\",\"eng\":\"Surveys\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/stationnement\/abonnement\/demande",
+		"sText": "{\"fre\": \"Nouvelle demande\",\"eng\":\"New application\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/stationnement\/abonnement\/permis",
+		"sText": "{\"fre\": \"Mes permis\",\"eng\":\"My permits\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/stationnement\/usage\/reservation",
+		"sText": "{\"fre\": \"Accueil\",\"eng\":\"Home\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/stationnement\/usage\/reservation",
+		"sText": "{\"fre\": \"Payer une place\",\"eng\":\"Pay a place\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/stationnement\/usage\/stationnementprepaye",
+		"sText": "{\"fre\": \"Stationnement pr\u00e9pay\u00e9\",\"eng\":\"Prepaid parking\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/user",
+		"sText": "{\"fre\": \"Mes renseignements\", \"eng\":\"My information\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/utilisateur\/informationsdepaiement",
+		"sText": "{\"fre\": \"Informations de paiement\",\"eng\":\"Payment informations\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/utilisateur\/notifications",
+		"sText": "{\"fre\": \"Notifications\",\"eng\":\"Notifications\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/utilisateur\/recus",
+		"sText": "{\"fre\": \"Mes re\u00e7us\",\"eng\":\"My receipts\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "#\/utilisateur\/vehicule",
+		"sText": "{\"fre\": \"Mes v\u00e9hicules\",\"eng\":\"My vehicles\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "..\/cartes\/renouvellement",
+		"sText": "{\"fre\": \"G\u00e9rer mes abonnements\",\"eng\":\"Manage my accounts\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	},
+	{
+		"sLink": "..\/vignettedemandes",
+		"sText": "{\"fre\": \"Demande de vignette\", \"eng\":\"My invoices\"}",
+		"iCreation": 1504886300,
+		"iModification": 1504886300
+	}
+]

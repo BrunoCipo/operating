@@ -34,8 +34,8 @@ class ProrataMigration extends AbstractMigration
 		    ->addColumn('iUnitTimeId',                  'biginteger',   [ 'null'    => false ] )
 		    ->addColumn('iStartCountId',                'biginteger',   [ 'null'    => false ] )
 		    ->addColumn('iWaitingTimeInSeconds',        'biginteger',   [ 'null'    => false,   'default' => 0 ] )
-		    ->addColumn('sName',                        'string',       [ 'null'    => false ] )
-		    ->addColumn('sDescription',                 'string',       [ 'null'    => false ] )
+		    ->addColumn('sName',                        'string',       [ 'null'    => false,   'length' => 1073741823 ] )
+		    ->addColumn('sDescription',                 'string',       [ 'null'    => false,   'length' => 1073741823 ] )
 		
 		    ->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 		    ->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

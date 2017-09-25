@@ -1,0 +1,56 @@
+[
+	{
+		"fkiOrganisationId": "1",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"paiement unique\",\"eng\":\"unique payment\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "2",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"paiement unique\",\"eng\":\"unique payment\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"10 pr\u00e9l\u00e8vements\", \"eng\": \"10 direct debits\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"20 pr\u00e9l\u00e8vements\", \"eng\": \"20 direct debits\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"5 pr\u00e9l\u00e8vements\", \"eng\": \"5 direct debits\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	},
+	{
+		"fkiOrganisationId": "6",
+		"iTypeId": "1",
+		"sName": "{\"fre\":\"paiement unique\",\"eng\":\"unique payment\"}",
+		"sDescription": "{}",
+		"bDeleted": "0",
+		"iCreation": 1505225740,
+		"iModification": 1505225740
+	}
+]

@@ -32,8 +32,8 @@ class DocumentMigration extends AbstractMigration
 		
 		    ->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 		    ->addColumn('iTypeId',                      'biginteger',   [ 'null'    => false ] )
-		    ->addColumn('sName',                        'string',       [ 'null'    => false ] )
-		    ->addColumn('sDescription',                 'string',       [ 'null'    => false ] )
+		    ->addColumn('sName',                        'string',       [ 'null'    => false,   'length'    => 1073741823 ] )
+		    ->addColumn('sDescription',                 'string',       [ 'null'    => false,   'length'    => 1073741823 ] )
 		    ->addColumn('iExpirationTimeInSeconds',     'biginteger',   [ 'null'    => true  ] )
 		
 		

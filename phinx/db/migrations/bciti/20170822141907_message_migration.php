@@ -51,10 +51,10 @@ class MessageMigration extends AbstractMigration
 			->addColumn('iDateEnvoi',                   'biginteger',   [ 'null'    => true   ] )
 			->addColumn('iSujet',                       'biginteger',   [ 'null'    => true   ] )
 			->addColumn('iSujetBeta',                   'biginteger',   [ 'null'    => true   ] )
-			->addColumn('sContenu',                     'string',       [ 'null'    => true,     'default' => '' ] )
+			->addColumn('sContenu',                     'string',       [ 'null'    => true,    'length'    => 1073741823, ] )  //todo bc 'default' = ''
 			->addColumn('fkiGeoPointId',                'biginteger',   [ 'null'    => true   ] )
 			->addColumn('iVisibilityId',                'biginteger',   [ 'null'    => false,    'default' => 1  ] )
-			->addColumn('sMetaData',                    'string',       [ 'null'    => true   ] )
+			->addColumn('sMetaData',                    'string',       [ 'null'    => true,    'length'    => 1073741823  ] )
 			->addColumn('iLookup',                      'biginteger',   [ 'null'    => true   ] )
 			->addColumn('bClosed',                      'biginteger',   [ 'null'    => false,    'default' => 0   ] )
 			
@@ -80,7 +80,7 @@ class MessageMigration extends AbstractMigration
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false   ] )
 			->addColumn('fkiMessageId',                 'biginteger',   [ 'null'    => false   ] )
-			->addColumn('sComment',                     'string',       [ 'null'    => true ] )
+			->addColumn('sComment',                     'string',       [ 'null'    => true,    'length'    => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )
@@ -117,7 +117,7 @@ class MessageMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiMessageId',                 'biginteger',   [ 'null'    => false ] )
-			->addColumn('sComment',                     'string',       [ 'null'    => true  ] )
+			->addColumn('sComment',                     'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			->addColumn('sAttachmentList',              'string',       [ 'null'    => true,    'length' => 255 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
@@ -139,7 +139,10 @@ class MessageMigration extends AbstractMigration
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiMessageSubjectCategoryId',  'biginteger',   [ 'null'    => true  ] )
 			->addColumn('iTypeId',                      'biginteger',   [ 'null'    => false ] )
-			->addColumn('sTitle',                       'string',       [ 'null'    => false ] )
+			->addColumn('sTitle',                       'string',       [ 'null'    => false,    'length'    => 1073741823 ] )
+			->addColumn('sName',                        'string',       [ 'null'    => false,    'length'    => 150 ] )
+			->addColumn('sDefaultValue',                'string',       [ 'null'    => false,    'length'    => 1073741823 ] )
+			->addColumn('sAttribute',                   'string',       [ 'null'    => false,    'length'    => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )
@@ -179,10 +182,10 @@ class MessageMigration extends AbstractMigration
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiMessageSubjectCategoryId',  'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sExternalIdentifier',          'string',       [ 'null'    => true,    'length' => 100, 'default' => ''  ] )
-			->addColumn('sName',                        'string',       [ 'null'    => false ] )
-			->addColumn('sDescription',                 'string',       [ 'null'    => false ] )
-			->addColumn('sMetaData',                    'string',       [ 'null'    => false ] )
+			->addColumn('sExternalIdentifier',          'string',       [ 'null'    => true,     'length' => 100, 'default' => ''  ] )
+			->addColumn('sName',                        'string',       [ 'null'    => false,    'length' => 1073741823 ] )
+			->addColumn('sDescription',                 'string',       [ 'null'    => false,    'length' => 1073741823 ] )
+			->addColumn('sMetaData',                    'string',       [ 'null'    => false,    'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )
@@ -202,10 +205,10 @@ class MessageMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
-			->addColumn('sExternalIdentifier',          'string',       [ 'null'    => true,    'length'  => 100, 'default' => '' ] )
-			->addColumn('sName',                        'string',       [ 'null'    => false ] )
-			->addColumn('sDescription',                 'string',       [ 'null'    => false ] )
-			->addColumn('sMetaData',                    'string',       [ 'null'    => false ] )
+			->addColumn('sExternalIdentifier',          'string',       [ 'null'    => true,     'length'  => 100, 'default' => '' ] )
+			->addColumn('sName',                        'string',       [ 'null'    => false,    'length' => 1073741823 ] )
+			->addColumn('sDescription',                 'string',       [ 'null'    => false,    'length' => 1073741823 ] )
+			->addColumn('sMetaData',                    'string',       [ 'null'    => false,    'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0   ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

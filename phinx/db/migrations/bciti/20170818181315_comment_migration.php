@@ -39,7 +39,7 @@ class CommentMigration extends AbstractMigration
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => false ] )
-			->addColumn('sText',                        'biginteger',   [ 'null'    => false ] )
+			->addColumn('sText',                        'biginteger',   [ 'null'    => false, 'length' => 1073741823 ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,   'default' => 0 ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )

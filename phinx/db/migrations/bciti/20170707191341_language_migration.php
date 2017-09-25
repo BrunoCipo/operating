@@ -44,7 +44,7 @@ class LanguageMigration extends AbstractMigration{
 			->addColumn('sLocale', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 5))
 			->addColumn('sIso2Code', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 2))
 			->addColumn('sIso3Code', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 3))
-			->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN)
+			->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false, 'default' => 0))
 			->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 			->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 			->addIndex('bDeleted', array('name' => 'idx_deleted'))

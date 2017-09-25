@@ -37,7 +37,7 @@ class UiMenuMigration extends AbstractMigration
 			->addColumn('id',                           'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('sLink',                        'string',       [ 'null'    => true,    'length'  => 2000  ] )
-			->addColumn('sText',                        'string',       [ 'null'    => true  ] )
+			->addColumn('sText',                        'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false,   'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
@@ -54,7 +54,7 @@ class UiMenuMigration extends AbstractMigration
 			->addColumn('id',                   'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',    'biginteger',   [ 'null'    => true  ] )
-			->addColumn('sConfigMenu',          'string',       [ 'null'    => true  ] )
+			->addColumn('sConfigMenu',          'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			
 			
 			->addColumn('bDeleted',             'integer',      [ 'null'    => false,   'default' => 0  ] )

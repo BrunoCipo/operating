@@ -1,0 +1,2234 @@
+[
+	{
+		"sDefaultName": "Afghanistan",
+		"sIso2Code": "AF",
+		"sIso3Code": "AFG",
+		"iNumericCode": "4",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Albania",
+		"sIso2Code": "AL",
+		"sIso3Code": "ALB",
+		"iNumericCode": "8",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Algeria",
+		"sIso2Code": "DZ",
+		"sIso3Code": "DZA",
+		"iNumericCode": "12",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "American Samoa",
+		"sIso2Code": "AS",
+		"sIso3Code": "ASM",
+		"iNumericCode": "16",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Andorra",
+		"sIso2Code": "AD",
+		"sIso3Code": "AND",
+		"iNumericCode": "20",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Angola",
+		"sIso2Code": "AO",
+		"sIso3Code": "AGO",
+		"iNumericCode": "24",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Anguilla",
+		"sIso2Code": "AI",
+		"sIso3Code": "AIA",
+		"iNumericCode": "660",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Antarctica",
+		"sIso2Code": "AQ",
+		"sIso3Code": "ATA",
+		"iNumericCode": "10",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Antigua and Barbuda",
+		"sIso2Code": "AG",
+		"sIso3Code": "ATG",
+		"iNumericCode": "28",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Argentina",
+		"sIso2Code": "AR",
+		"sIso3Code": "ARG",
+		"iNumericCode": "32",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Armenia",
+		"sIso2Code": "AM",
+		"sIso3Code": "ARM",
+		"iNumericCode": "51",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Aruba",
+		"sIso2Code": "AW",
+		"sIso3Code": "ABW",
+		"iNumericCode": "533",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Australia",
+		"sIso2Code": "AU",
+		"sIso3Code": "AUS",
+		"iNumericCode": "36",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Austria",
+		"sIso2Code": "AT",
+		"sIso3Code": "AUT",
+		"iNumericCode": "40",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Azerbaijan",
+		"sIso2Code": "AZ",
+		"sIso3Code": "AZE",
+		"iNumericCode": "31",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bahamas",
+		"sIso2Code": "BS",
+		"sIso3Code": "BHS",
+		"iNumericCode": "44",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bahrain",
+		"sIso2Code": "BH",
+		"sIso3Code": "BHR",
+		"iNumericCode": "48",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bangladesh",
+		"sIso2Code": "BD",
+		"sIso3Code": "BGD",
+		"iNumericCode": "50",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Barbados",
+		"sIso2Code": "BB",
+		"sIso3Code": "BRB",
+		"iNumericCode": "52",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Belarus",
+		"sIso2Code": "BY",
+		"sIso3Code": "BLR",
+		"iNumericCode": "112",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Belgium",
+		"sIso2Code": "BE",
+		"sIso3Code": "BEL",
+		"iNumericCode": "56",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Belize",
+		"sIso2Code": "BZ",
+		"sIso3Code": "BLZ",
+		"iNumericCode": "84",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Benin",
+		"sIso2Code": "BJ",
+		"sIso3Code": "BEN",
+		"iNumericCode": "204",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bermuda",
+		"sIso2Code": "BM",
+		"sIso3Code": "BMU",
+		"iNumericCode": "60",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bhutan",
+		"sIso2Code": "BT",
+		"sIso3Code": "BTN",
+		"iNumericCode": "64",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bolivia",
+		"sIso2Code": "BO",
+		"sIso3Code": "BOL",
+		"iNumericCode": "68",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bosnia and Herzegovina",
+		"sIso2Code": "BA",
+		"sIso3Code": "BIH",
+		"iNumericCode": "70",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Botswana",
+		"sIso2Code": "BW",
+		"sIso3Code": "BWA",
+		"iNumericCode": "72",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bouvet Island",
+		"sIso2Code": "BV",
+		"sIso3Code": "BVT",
+		"iNumericCode": "74",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Brazil",
+		"sIso2Code": "BR",
+		"sIso3Code": "BRA",
+		"iNumericCode": "76",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "British Indian Ocean Territory",
+		"sIso2Code": "IO",
+		"sIso3Code": "IOT",
+		"iNumericCode": "86",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "British Virgin Islands",
+		"sIso2Code": "VG",
+		"sIso3Code": "VGB",
+		"iNumericCode": "92",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Brunei",
+		"sIso2Code": "BN",
+		"sIso3Code": "BRN",
+		"iNumericCode": "96",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Bulgaria",
+		"sIso2Code": "BG",
+		"sIso3Code": "BGR",
+		"iNumericCode": "100",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Burkina Faso",
+		"sIso2Code": "BF",
+		"sIso3Code": "BFA",
+		"iNumericCode": "854",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Burundi",
+		"sIso2Code": "BI",
+		"sIso3Code": "BDI",
+		"iNumericCode": "108",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cambodia",
+		"sIso2Code": "KH",
+		"sIso3Code": "KHM",
+		"iNumericCode": "116",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cameroon",
+		"sIso2Code": "CM",
+		"sIso3Code": "CMR",
+		"iNumericCode": "120",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Canada",
+		"sIso2Code": "CA",
+		"sIso3Code": "CAN",
+		"iNumericCode": "124",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cape Verde",
+		"sIso2Code": "CV",
+		"sIso3Code": "CPV",
+		"iNumericCode": "132",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cayman Islands",
+		"sIso2Code": "KY",
+		"sIso3Code": "CYM",
+		"iNumericCode": "136",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Central African Republic",
+		"sIso2Code": "CF",
+		"sIso3Code": "CAF",
+		"iNumericCode": "140",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Chad",
+		"sIso2Code": "TD",
+		"sIso3Code": "TCD",
+		"iNumericCode": "148",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Chile",
+		"sIso2Code": "CL",
+		"sIso3Code": "CHL",
+		"iNumericCode": "152",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "China",
+		"sIso2Code": "CN",
+		"sIso3Code": "CHN",
+		"iNumericCode": "156",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Christmas Island",
+		"sIso2Code": "CX",
+		"sIso3Code": "CXR",
+		"iNumericCode": "162",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cocos (Keeling) Islands",
+		"sIso2Code": "CC",
+		"sIso3Code": "CCK",
+		"iNumericCode": "166",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Colombia",
+		"sIso2Code": "CO",
+		"sIso3Code": "COL",
+		"iNumericCode": "170",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Comoros",
+		"sIso2Code": "KM",
+		"sIso3Code": "COM",
+		"iNumericCode": "174",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cook Islands",
+		"sIso2Code": "CK",
+		"sIso3Code": "COK",
+		"iNumericCode": "184",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Costa Rica",
+		"sIso2Code": "CR",
+		"sIso3Code": "CRI",
+		"iNumericCode": "188",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Croatia",
+		"sIso2Code": "HR",
+		"sIso3Code": "HRV",
+		"iNumericCode": "191",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cuba",
+		"sIso2Code": "CU",
+		"sIso3Code": "CUB",
+		"iNumericCode": "192",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cura\u00e7ao",
+		"sIso2Code": "CW",
+		"sIso3Code": "CUW",
+		"iNumericCode": "531",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Cyprus",
+		"sIso2Code": "CY",
+		"sIso3Code": "CYP",
+		"iNumericCode": "196",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Czechia",
+		"sIso2Code": "CZ",
+		"sIso3Code": "CZE",
+		"iNumericCode": "203",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "DR Congo",
+		"sIso2Code": "CD",
+		"sIso3Code": "COD",
+		"iNumericCode": "180",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Denmark",
+		"sIso2Code": "DK",
+		"sIso3Code": "DNK",
+		"iNumericCode": "208",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Djibouti",
+		"sIso2Code": "DJ",
+		"sIso3Code": "DJI",
+		"iNumericCode": "262",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Dominica",
+		"sIso2Code": "DM",
+		"sIso3Code": "DMA",
+		"iNumericCode": "212",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Dominican Republic",
+		"sIso2Code": "DO",
+		"sIso3Code": "DOM",
+		"iNumericCode": "214",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Ecuador",
+		"sIso2Code": "EC",
+		"sIso3Code": "ECU",
+		"iNumericCode": "218",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Egypt",
+		"sIso2Code": "EG",
+		"sIso3Code": "EGY",
+		"iNumericCode": "818",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "El Salvador",
+		"sIso2Code": "SV",
+		"sIso3Code": "SLV",
+		"iNumericCode": "222",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Equatorial Guinea",
+		"sIso2Code": "GQ",
+		"sIso3Code": "GNQ",
+		"iNumericCode": "226",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Eritrea",
+		"sIso2Code": "ER",
+		"sIso3Code": "ERI",
+		"iNumericCode": "232",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Estonia",
+		"sIso2Code": "EE",
+		"sIso3Code": "EST",
+		"iNumericCode": "233",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Ethiopia",
+		"sIso2Code": "ET",
+		"sIso3Code": "ETH",
+		"iNumericCode": "231",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Falkland Islands",
+		"sIso2Code": "FK",
+		"sIso3Code": "FLK",
+		"iNumericCode": "238",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Faroe Islands",
+		"sIso2Code": "FO",
+		"sIso3Code": "FRO",
+		"iNumericCode": "234",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Fiji",
+		"sIso2Code": "FJ",
+		"sIso3Code": "FJI",
+		"iNumericCode": "242",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Finland",
+		"sIso2Code": "FI",
+		"sIso3Code": "FIN",
+		"iNumericCode": "246",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "France",
+		"sIso2Code": "FR",
+		"sIso3Code": "FRA",
+		"iNumericCode": "250",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "French Guiana",
+		"sIso2Code": "GF",
+		"sIso3Code": "GUF",
+		"iNumericCode": "254",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "French Polynesia",
+		"sIso2Code": "PF",
+		"sIso3Code": "PYF",
+		"iNumericCode": "258",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "French Southern and Antarctic Lands",
+		"sIso2Code": "TF",
+		"sIso3Code": "ATF",
+		"iNumericCode": "260",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Gabon",
+		"sIso2Code": "GA",
+		"sIso3Code": "GAB",
+		"iNumericCode": "266",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Gambia",
+		"sIso2Code": "GM",
+		"sIso3Code": "GMB",
+		"iNumericCode": "270",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Georgia",
+		"sIso2Code": "GE",
+		"sIso3Code": "GEO",
+		"iNumericCode": "268",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Germany",
+		"sIso2Code": "DE",
+		"sIso3Code": "DEU",
+		"iNumericCode": "276",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Ghana",
+		"sIso2Code": "GH",
+		"sIso3Code": "GHA",
+		"iNumericCode": "288",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Gibraltar",
+		"sIso2Code": "GI",
+		"sIso3Code": "GIB",
+		"iNumericCode": "292",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Greece",
+		"sIso2Code": "GR",
+		"sIso3Code": "GRC",
+		"iNumericCode": "300",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Greenland",
+		"sIso2Code": "GL",
+		"sIso3Code": "GRL",
+		"iNumericCode": "304",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Grenada",
+		"sIso2Code": "GD",
+		"sIso3Code": "GRD",
+		"iNumericCode": "308",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guadeloupe",
+		"sIso2Code": "GP",
+		"sIso3Code": "GLP",
+		"iNumericCode": "312",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guam",
+		"sIso2Code": "GU",
+		"sIso3Code": "GUM",
+		"iNumericCode": "316",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guatemala",
+		"sIso2Code": "GT",
+		"sIso3Code": "GTM",
+		"iNumericCode": "320",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guernsey",
+		"sIso2Code": "GG",
+		"sIso3Code": "GGY",
+		"iNumericCode": "831",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guinea",
+		"sIso2Code": "GN",
+		"sIso3Code": "GIN",
+		"iNumericCode": "324",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guinea-Bissau",
+		"sIso2Code": "GW",
+		"sIso3Code": "GNB",
+		"iNumericCode": "624",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Guyana",
+		"sIso2Code": "GY",
+		"sIso3Code": "GUY",
+		"iNumericCode": "328",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Haiti",
+		"sIso2Code": "HT",
+		"sIso3Code": "HTI",
+		"iNumericCode": "332",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Heard Island and McDonald Islands",
+		"sIso2Code": "HM",
+		"sIso3Code": "HMD",
+		"iNumericCode": "334",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Honduras",
+		"sIso2Code": "HN",
+		"sIso3Code": "HND",
+		"iNumericCode": "340",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Hong Kong",
+		"sIso2Code": "HK",
+		"sIso3Code": "HKG",
+		"iNumericCode": "344",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Hungary",
+		"sIso2Code": "HU",
+		"sIso3Code": "HUN",
+		"iNumericCode": "348",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Iceland",
+		"sIso2Code": "IS",
+		"sIso3Code": "ISL",
+		"iNumericCode": "352",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "India",
+		"sIso2Code": "IN",
+		"sIso3Code": "IND",
+		"iNumericCode": "356",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Indonesia",
+		"sIso2Code": "ID",
+		"sIso3Code": "IDN",
+		"iNumericCode": "360",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Iran",
+		"sIso2Code": "IR",
+		"sIso3Code": "IRN",
+		"iNumericCode": "364",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Iraq",
+		"sIso2Code": "IQ",
+		"sIso3Code": "IRQ",
+		"iNumericCode": "368",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Ireland",
+		"sIso2Code": "IE",
+		"sIso3Code": "IRL",
+		"iNumericCode": "372",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Isle of Man",
+		"sIso2Code": "IM",
+		"sIso3Code": "IMN",
+		"iNumericCode": "833",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Israel",
+		"sIso2Code": "IL",
+		"sIso3Code": "ISR",
+		"iNumericCode": "376",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Italy",
+		"sIso2Code": "IT",
+		"sIso3Code": "ITA",
+		"iNumericCode": "380",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Ivory Coast",
+		"sIso2Code": "CI",
+		"sIso3Code": "CIV",
+		"iNumericCode": "384",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Jamaica",
+		"sIso2Code": "JM",
+		"sIso3Code": "JAM",
+		"iNumericCode": "388",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Japan",
+		"sIso2Code": "JP",
+		"sIso3Code": "JPN",
+		"iNumericCode": "392",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Jersey",
+		"sIso2Code": "JE",
+		"sIso3Code": "JEY",
+		"iNumericCode": "832",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Jordan",
+		"sIso2Code": "JO",
+		"sIso3Code": "JOR",
+		"iNumericCode": "400",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Kazakhstan",
+		"sIso2Code": "KZ",
+		"sIso3Code": "KAZ",
+		"iNumericCode": "398",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Kenya",
+		"sIso2Code": "KE",
+		"sIso3Code": "KEN",
+		"iNumericCode": "404",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Kiribati",
+		"sIso2Code": "KI",
+		"sIso3Code": "KIR",
+		"iNumericCode": "296",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Kosovo",
+		"sIso2Code": "XK",
+		"sIso3Code": "UNK",
+		"iNumericCode": "0",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Kuwait",
+		"sIso2Code": "KW",
+		"sIso3Code": "KWT",
+		"iNumericCode": "414",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Kyrgyzstan",
+		"sIso2Code": "KG",
+		"sIso3Code": "KGZ",
+		"iNumericCode": "417",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Laos",
+		"sIso2Code": "LA",
+		"sIso3Code": "LAO",
+		"iNumericCode": "418",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Latvia",
+		"sIso2Code": "LV",
+		"sIso3Code": "LVA",
+		"iNumericCode": "428",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Lebanon",
+		"sIso2Code": "LB",
+		"sIso3Code": "LBN",
+		"iNumericCode": "422",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Lesotho",
+		"sIso2Code": "LS",
+		"sIso3Code": "LSO",
+		"iNumericCode": "426",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Liberia",
+		"sIso2Code": "LR",
+		"sIso3Code": "LBR",
+		"iNumericCode": "430",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Libya",
+		"sIso2Code": "LY",
+		"sIso3Code": "LBY",
+		"iNumericCode": "434",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Liechtenstein",
+		"sIso2Code": "LI",
+		"sIso3Code": "LIE",
+		"iNumericCode": "438",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Lithuania",
+		"sIso2Code": "LT",
+		"sIso3Code": "LTU",
+		"iNumericCode": "440",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Luxembourg",
+		"sIso2Code": "LU",
+		"sIso3Code": "LUX",
+		"iNumericCode": "442",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Macau",
+		"sIso2Code": "MO",
+		"sIso3Code": "MAC",
+		"iNumericCode": "446",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Macedonia",
+		"sIso2Code": "MK",
+		"sIso3Code": "MKD",
+		"iNumericCode": "807",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Madagascar",
+		"sIso2Code": "MG",
+		"sIso3Code": "MDG",
+		"iNumericCode": "450",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Malawi",
+		"sIso2Code": "MW",
+		"sIso3Code": "MWI",
+		"iNumericCode": "454",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Malaysia",
+		"sIso2Code": "MY",
+		"sIso3Code": "MYS",
+		"iNumericCode": "458",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Maldives",
+		"sIso2Code": "MV",
+		"sIso3Code": "MDV",
+		"iNumericCode": "462",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mali",
+		"sIso2Code": "ML",
+		"sIso3Code": "MLI",
+		"iNumericCode": "466",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Malta",
+		"sIso2Code": "MT",
+		"sIso3Code": "MLT",
+		"iNumericCode": "470",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Marshall Islands",
+		"sIso2Code": "MH",
+		"sIso3Code": "MHL",
+		"iNumericCode": "584",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Martinique",
+		"sIso2Code": "MQ",
+		"sIso3Code": "MTQ",
+		"iNumericCode": "474",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mauritania",
+		"sIso2Code": "MR",
+		"sIso3Code": "MRT",
+		"iNumericCode": "478",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mauritius",
+		"sIso2Code": "MU",
+		"sIso3Code": "MUS",
+		"iNumericCode": "480",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mayotte",
+		"sIso2Code": "YT",
+		"sIso3Code": "MYT",
+		"iNumericCode": "175",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mexico",
+		"sIso2Code": "MX",
+		"sIso3Code": "MEX",
+		"iNumericCode": "484",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Micronesia",
+		"sIso2Code": "FM",
+		"sIso3Code": "FSM",
+		"iNumericCode": "583",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Moldova",
+		"sIso2Code": "MD",
+		"sIso3Code": "MDA",
+		"iNumericCode": "498",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Monaco",
+		"sIso2Code": "MC",
+		"sIso3Code": "MCO",
+		"iNumericCode": "492",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mongolia",
+		"sIso2Code": "MN",
+		"sIso3Code": "MNG",
+		"iNumericCode": "496",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Montenegro",
+		"sIso2Code": "ME",
+		"sIso3Code": "MNE",
+		"iNumericCode": "499",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Montserrat",
+		"sIso2Code": "MS",
+		"sIso3Code": "MSR",
+		"iNumericCode": "500",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Morocco",
+		"sIso2Code": "MA",
+		"sIso3Code": "MAR",
+		"iNumericCode": "504",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Mozambique",
+		"sIso2Code": "MZ",
+		"sIso3Code": "MOZ",
+		"iNumericCode": "508",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Myanmar",
+		"sIso2Code": "MM",
+		"sIso3Code": "MMR",
+		"iNumericCode": "104",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Namibia",
+		"sIso2Code": "NA",
+		"sIso3Code": "NAM",
+		"iNumericCode": "516",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Nauru",
+		"sIso2Code": "NR",
+		"sIso3Code": "NRU",
+		"iNumericCode": "520",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Nepal",
+		"sIso2Code": "NP",
+		"sIso3Code": "NPL",
+		"iNumericCode": "524",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Netherlands",
+		"sIso2Code": "NL",
+		"sIso3Code": "NLD",
+		"iNumericCode": "528",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "New Caledonia",
+		"sIso2Code": "NC",
+		"sIso3Code": "NCL",
+		"iNumericCode": "540",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "New Zealand",
+		"sIso2Code": "NZ",
+		"sIso3Code": "NZL",
+		"iNumericCode": "554",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Nicaragua",
+		"sIso2Code": "NI",
+		"sIso3Code": "NIC",
+		"iNumericCode": "558",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Niger",
+		"sIso2Code": "NE",
+		"sIso3Code": "NER",
+		"iNumericCode": "562",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Nigeria",
+		"sIso2Code": "NG",
+		"sIso3Code": "NGA",
+		"iNumericCode": "566",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Niue",
+		"sIso2Code": "NU",
+		"sIso3Code": "NIU",
+		"iNumericCode": "570",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Norfolk Island",
+		"sIso2Code": "NF",
+		"sIso3Code": "NFK",
+		"iNumericCode": "574",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "North Korea",
+		"sIso2Code": "KP",
+		"sIso3Code": "PRK",
+		"iNumericCode": "408",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Northern Mariana Islands",
+		"sIso2Code": "MP",
+		"sIso3Code": "MNP",
+		"iNumericCode": "580",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Norway",
+		"sIso2Code": "NO",
+		"sIso3Code": "NOR",
+		"iNumericCode": "578",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Oman",
+		"sIso2Code": "OM",
+		"sIso3Code": "OMN",
+		"iNumericCode": "512",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Pakistan",
+		"sIso2Code": "PK",
+		"sIso3Code": "PAK",
+		"iNumericCode": "586",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Palau",
+		"sIso2Code": "PW",
+		"sIso3Code": "PLW",
+		"iNumericCode": "585",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Palestine",
+		"sIso2Code": "PS",
+		"sIso3Code": "PSE",
+		"iNumericCode": "275",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Panama",
+		"sIso2Code": "PA",
+		"sIso3Code": "PAN",
+		"iNumericCode": "591",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Papua New Guinea",
+		"sIso2Code": "PG",
+		"sIso3Code": "PNG",
+		"iNumericCode": "598",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Paraguay",
+		"sIso2Code": "PY",
+		"sIso3Code": "PRY",
+		"iNumericCode": "600",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Peru",
+		"sIso2Code": "PE",
+		"sIso3Code": "PER",
+		"iNumericCode": "604",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Philippines",
+		"sIso2Code": "PH",
+		"sIso3Code": "PHL",
+		"iNumericCode": "608",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Pitcairn Islands",
+		"sIso2Code": "PN",
+		"sIso3Code": "PCN",
+		"iNumericCode": "612",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Poland",
+		"sIso2Code": "PL",
+		"sIso3Code": "POL",
+		"iNumericCode": "616",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Portugal",
+		"sIso2Code": "PT",
+		"sIso3Code": "PRT",
+		"iNumericCode": "620",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Puerto Rico",
+		"sIso2Code": "PR",
+		"sIso3Code": "PRI",
+		"iNumericCode": "630",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Qatar",
+		"sIso2Code": "QA",
+		"sIso3Code": "QAT",
+		"iNumericCode": "634",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Republic of the Congo",
+		"sIso2Code": "CG",
+		"sIso3Code": "COG",
+		"iNumericCode": "178",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Romania",
+		"sIso2Code": "RO",
+		"sIso3Code": "ROU",
+		"iNumericCode": "642",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Russia",
+		"sIso2Code": "RU",
+		"sIso3Code": "RUS",
+		"iNumericCode": "643",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Rwanda",
+		"sIso2Code": "RW",
+		"sIso3Code": "RWA",
+		"iNumericCode": "646",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "R\u00e9union",
+		"sIso2Code": "RE",
+		"sIso3Code": "REU",
+		"iNumericCode": "638",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saint Barth\u00e9lemy",
+		"sIso2Code": "BL",
+		"sIso3Code": "BLM",
+		"iNumericCode": "652",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saint Kitts and Nevis",
+		"sIso2Code": "KN",
+		"sIso3Code": "KNA",
+		"iNumericCode": "659",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saint Lucia",
+		"sIso2Code": "LC",
+		"sIso3Code": "LCA",
+		"iNumericCode": "662",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saint Martin",
+		"sIso2Code": "MF",
+		"sIso3Code": "MAF",
+		"iNumericCode": "663",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saint Pierre and Miquelon",
+		"sIso2Code": "PM",
+		"sIso3Code": "SPM",
+		"iNumericCode": "666",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saint Vincent and the Grenadines",
+		"sIso2Code": "VC",
+		"sIso3Code": "VCT",
+		"iNumericCode": "670",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Samoa",
+		"sIso2Code": "WS",
+		"sIso3Code": "WSM",
+		"iNumericCode": "882",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "San Marino",
+		"sIso2Code": "SM",
+		"sIso3Code": "SMR",
+		"iNumericCode": "674",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Saudi Arabia",
+		"sIso2Code": "SA",
+		"sIso3Code": "SAU",
+		"iNumericCode": "682",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Senegal",
+		"sIso2Code": "SN",
+		"sIso3Code": "SEN",
+		"iNumericCode": "686",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Serbia",
+		"sIso2Code": "RS",
+		"sIso3Code": "SRB",
+		"iNumericCode": "688",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Seychelles",
+		"sIso2Code": "SC",
+		"sIso3Code": "SYC",
+		"iNumericCode": "690",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Sierra Leone",
+		"sIso2Code": "SL",
+		"sIso3Code": "SLE",
+		"iNumericCode": "694",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Singapore",
+		"sIso2Code": "SG",
+		"sIso3Code": "SGP",
+		"iNumericCode": "702",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Sint Maarten",
+		"sIso2Code": "SX",
+		"sIso3Code": "SXM",
+		"iNumericCode": "534",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Slovakia",
+		"sIso2Code": "SK",
+		"sIso3Code": "SVK",
+		"iNumericCode": "703",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Slovenia",
+		"sIso2Code": "SI",
+		"sIso3Code": "SVN",
+		"iNumericCode": "705",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Solomon Islands",
+		"sIso2Code": "SB",
+		"sIso3Code": "SLB",
+		"iNumericCode": "90",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Somalia",
+		"sIso2Code": "SO",
+		"sIso3Code": "SOM",
+		"iNumericCode": "706",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "South Africa",
+		"sIso2Code": "ZA",
+		"sIso3Code": "ZAF",
+		"iNumericCode": "710",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "South Georgia",
+		"sIso2Code": "GS",
+		"sIso3Code": "SGS",
+		"iNumericCode": "239",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "South Korea",
+		"sIso2Code": "KR",
+		"sIso3Code": "KOR",
+		"iNumericCode": "410",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "South Sudan",
+		"sIso2Code": "SS",
+		"sIso3Code": "SSD",
+		"iNumericCode": "728",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Spain",
+		"sIso2Code": "ES",
+		"sIso3Code": "ESP",
+		"iNumericCode": "724",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Sri Lanka",
+		"sIso2Code": "LK",
+		"sIso3Code": "LKA",
+		"iNumericCode": "144",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Sudan",
+		"sIso2Code": "SD",
+		"sIso3Code": "SDN",
+		"iNumericCode": "729",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Suriname",
+		"sIso2Code": "SR",
+		"sIso3Code": "SUR",
+		"iNumericCode": "740",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Svalbard and Jan Mayen",
+		"sIso2Code": "SJ",
+		"sIso3Code": "SJM",
+		"iNumericCode": "744",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Swaziland",
+		"sIso2Code": "SZ",
+		"sIso3Code": "SWZ",
+		"iNumericCode": "748",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Sweden",
+		"sIso2Code": "SE",
+		"sIso3Code": "SWE",
+		"iNumericCode": "752",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Switzerland",
+		"sIso2Code": "CH",
+		"sIso3Code": "CHE",
+		"iNumericCode": "756",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Syria",
+		"sIso2Code": "SY",
+		"sIso3Code": "SYR",
+		"iNumericCode": "760",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+		"sIso2Code": "ST",
+		"sIso3Code": "STP",
+		"iNumericCode": "678",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Taiwan",
+		"sIso2Code": "TW",
+		"sIso3Code": "TWN",
+		"iNumericCode": "158",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Tajikistan",
+		"sIso2Code": "TJ",
+		"sIso3Code": "TJK",
+		"iNumericCode": "762",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Tanzania",
+		"sIso2Code": "TZ",
+		"sIso3Code": "TZA",
+		"iNumericCode": "834",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Thailand",
+		"sIso2Code": "TH",
+		"sIso3Code": "THA",
+		"iNumericCode": "764",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Timor-Leste",
+		"sIso2Code": "TL",
+		"sIso3Code": "TLS",
+		"iNumericCode": "626",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Togo",
+		"sIso2Code": "TG",
+		"sIso3Code": "TGO",
+		"iNumericCode": "768",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Tokelau",
+		"sIso2Code": "TK",
+		"sIso3Code": "TKL",
+		"iNumericCode": "772",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Tonga",
+		"sIso2Code": "TO",
+		"sIso3Code": "TON",
+		"iNumericCode": "776",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Trinidad and Tobago",
+		"sIso2Code": "TT",
+		"sIso3Code": "TTO",
+		"iNumericCode": "780",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Tunisia",
+		"sIso2Code": "TN",
+		"sIso3Code": "TUN",
+		"iNumericCode": "788",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Turkey",
+		"sIso2Code": "TR",
+		"sIso3Code": "TUR",
+		"iNumericCode": "792",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Turkmenistan",
+		"sIso2Code": "TM",
+		"sIso3Code": "TKM",
+		"iNumericCode": "795",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Turks and Caicos Islands",
+		"sIso2Code": "TC",
+		"sIso3Code": "TCA",
+		"iNumericCode": "796",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Tuvalu",
+		"sIso2Code": "TV",
+		"sIso3Code": "TUV",
+		"iNumericCode": "798",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Uganda",
+		"sIso2Code": "UG",
+		"sIso3Code": "UGA",
+		"iNumericCode": "800",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Ukraine",
+		"sIso2Code": "UA",
+		"sIso3Code": "UKR",
+		"iNumericCode": "804",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "United Arab Emirates",
+		"sIso2Code": "AE",
+		"sIso3Code": "ARE",
+		"iNumericCode": "784",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "United Kingdom",
+		"sIso2Code": "GB",
+		"sIso3Code": "GBR",
+		"iNumericCode": "826",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "United States",
+		"sIso2Code": "US",
+		"sIso3Code": "USA",
+		"iNumericCode": "840",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "United States Minor Outlying Islands",
+		"sIso2Code": "UM",
+		"sIso3Code": "UMI",
+		"iNumericCode": "581",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "United States Virgin Islands",
+		"sIso2Code": "VI",
+		"sIso3Code": "VIR",
+		"iNumericCode": "850",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Uruguay",
+		"sIso2Code": "UY",
+		"sIso3Code": "URY",
+		"iNumericCode": "858",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Uzbekistan",
+		"sIso2Code": "UZ",
+		"sIso3Code": "UZB",
+		"iNumericCode": "860",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Vanuatu",
+		"sIso2Code": "VU",
+		"sIso3Code": "VUT",
+		"iNumericCode": "548",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Vatican City",
+		"sIso2Code": "VA",
+		"sIso3Code": "VAT",
+		"iNumericCode": "336",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Venezuela",
+		"sIso2Code": "VE",
+		"sIso3Code": "VEN",
+		"iNumericCode": "862",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Vietnam",
+		"sIso2Code": "VN",
+		"sIso3Code": "VNM",
+		"iNumericCode": "704",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Wallis and Futuna",
+		"sIso2Code": "WF",
+		"sIso3Code": "WLF",
+		"iNumericCode": "876",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Western Sahara",
+		"sIso2Code": "EH",
+		"sIso3Code": "ESH",
+		"iNumericCode": "732",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Yemen",
+		"sIso2Code": "YE",
+		"sIso3Code": "YEM",
+		"iNumericCode": "887",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Zambia",
+		"sIso2Code": "ZM",
+		"sIso3Code": "ZMB",
+		"iNumericCode": "894",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "Zimbabwe",
+		"sIso2Code": "ZW",
+		"sIso3Code": "ZWE",
+		"iNumericCode": "716",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	},
+	{
+		"sDefaultName": "\u00c5land Islands",
+		"sIso2Code": "AX",
+		"sIso3Code": "ALA",
+		"iNumericCode": "248",
+		"bDeleted": "0",
+		"iCreation": 1504899942,
+		"iModification": 1504899942
+	}
+]

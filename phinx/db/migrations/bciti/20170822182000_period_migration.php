@@ -81,7 +81,7 @@ class PeriodMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiPeriodId',                  'biginteger',   [ 'null'    => false ] )
-			->addColumn('sWeekdayList',                 'string',       [ 'null'    => false ] )
+			->addColumn('sWeekdayList',                 'string',       [ 'null'    => false,   'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

@@ -30,7 +30,7 @@ class TokenApiMigration extends AbstractMigration
 	    $this->table('TokenApi', [ 'id'=> false ] )
 		
 		    ->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true  ] )
-		    ->addColumn('sToken',                       'string',       [ 'null'    => false,    'length' => 128, 'default' => ''  ] )
+		    ->addColumn('sToken',                       'string',       [ 'null'    => false,   'length' => 1073741823  ] ) //todo bc , 'default' => ''
 		    ->addColumn('iExpiration',                  'biginteger',   [ 'null'    => true  ] )
 		
 		    ->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )

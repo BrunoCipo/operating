@@ -44,8 +44,8 @@ class OrganisationMigration extends AbstractMigration
 			->addColumn('iOrganisationNatureType',      'biginteger',   [ 'null'    => true ] )
 			->addColumn('iOrganisationDomaineType',     'biginteger',   [ 'null'    => true ] )
 			->addColumn('sNom',                         'string',       [ 'null'    => true,    'length' => 250 ] )
-			->addColumn('sUrl',                         'string',       [ 'null'    => true ] )
-			->addColumn('sLogo',                        'string',       [ 'null'    => true ] )
+			->addColumn('sUrl',                         'string',       [ 'null'    => true,   'length' => 1073741823  ] )
+			->addColumn('sLogo',                        'string',       [ 'null'    => true,   'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true ] )
@@ -96,8 +96,8 @@ class OrganisationMigration extends AbstractMigration
 			->addColumn('id',                               'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiOrganisationId',            'biginteger',   [ 'null'    => false ] )
-			->addColumn('sKey',                         'biginteger',   [ 'null'    => false,   'length' => 100 ] )
-			->addColumn('sValue',                       'biginteger',   [ 'null'    => true,  ] )
+			->addColumn('sKey',                         'string',       [ 'null'    => false,   'length' => 100 ] )
+			->addColumn('sValue',                       'string',       [ 'null'    => true,    'length' => 1073741823  ] )
 			
 			->addColumn('bDeleted',                     'integer',      [ 'null'    => false ,  'default' => 0  ] )
 			->addColumn('iCreation',                    'biginteger',   [ 'null'    => true  ] )
