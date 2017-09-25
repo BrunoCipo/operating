@@ -1,3 +1,5 @@
+
+
 # Présentation
 
 Phinx est un outil de gestion et migrations de base de données. Il permet de s'adapter facilement à différents systèmes de gestions des bases de données (MySQL, MS SQL, PostgreSQL,...).
@@ -19,37 +21,36 @@ Ou bien avec la ligne de commande suivante (à exécuter dans votre terminal)
 
 #### Requis
 
-Certains éléments sont requis afin de pouvoir installer et utiliser Phinx.
+Les éléments suivants doivent être installés avant l'installation de phinx.
 
 ##### PHP-Cli
 
-PHP-Cli est installé par défaut sur MacOSX. Lors de l'installation de MAMP, une autre version de ce dernier est aussi installée.
+La version de PHP-Cli installé par défaut sur MacOSX ne fonctionne pas avec phinx.  Il faut utiliser la version de PHP qui est inclus avec l'installation de MAMP.
 
-Seulement, par défaut, la commande php va utiliser celle de MacOSX qui n'est pas configurer correctement.
-
-Pour configurer la version de PHP correctement :
-* Allez récupérer votre version PHP de MAMP : Allez dans le logiciel MAMP, allez dans Préférences => PHP puis copiez la version de PHP sélectionnée.
+Pour configurer la bonne version de PHP:
+* Récupérer la version PHP de MAMP : Allez dans le logiciel MAMP, allez dans Préférences => PHP puis copiez la version de PHP sélectionnée.
 * Par ligne de commande, déplacez vous dans le projet puis exécutez le script d'installation
 
 
     cd operating
-    ./scripts/php-config.sh
+    ./scripts/php-config.sh <version_de_php>
 
-Une fois la commande exécutée, vous devez redémarrer votre terminal. Une fois fait, votre système utilisera la bonne version de PHP
+Une fois la commande exécutée, il faut redémarrer la fenêtre de terminal.
 
-Pour le vérifier, entrez la commande:
+Pour vérifier la configuration, entrer la commande:
 
     which php
     
-La commande devrait vous retourner un chemin du type : 
+La commande devrait retourner un chemin du type : 
     
-    /Applications/MAMP/bin/php/php5.6.30/bin/php
+    /Applications/MAMP/bin/php/<php_version>/bin/php
     
+
 ##### Composer
 
-Pour l'installation de Phinx, l'orchestrateur Composer est lui aussi nécessaire : https://getcomposer.org/
+L'orchestrateur Composer est nécessaire : https://getcomposer.org/
 
-Pour l'installer, il faut suivre les étapes décrites sur cette page : https://getcomposer.org/download/
+Pour l'installer, exécuter la commande:
 
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer
     
@@ -57,12 +58,13 @@ Pour l'installer, il faut suivre les étapes décrites sur cette page : https://
 
 Maintenant que PHP et Composer sont correctement installés et configurés, il reste à installer Phinx.
 
-Aller dans le dossier phinx du repository Operating et lancez l'installation par composer
+Aller dans le dossier phinx du repository Operating et lancer l'installation par composer
 
-    cd /pathtotherepository/phinx
+    cd /<pathtotherepository>/phinx
     composer install
     
-Une fois fait, vous devriez avoir Phinx d'installer, pour vérifier, lancez la commande **"phinx"**, si le système dit qu'elle est introuvable, relancez votre terminal et revenez dans le dossier.
+Une fois terminé, pour vérifier, lancez la commande **"phinx"**. Si le système dit qu'elle est introuvable, relancer la fenêtre de terminal et revenir dans le dossier.
+
 Pour plus d'information sur l'installation de Phinx : http://docs.phinx.org/en/latest/install.html
 
 #### Commande 'phinx'
@@ -73,7 +75,7 @@ Lors de l'exécution de _php-config.sh_, le lien symbolique est automatiquement 
 
 # Utilisation de Phinx
 
-#### Presentation
+#### Présentation
 
 Maintenant que Phinx est installé, vous allez pouvoir l'utiliser pour mettre à jour facilement vos bases de données.
 
