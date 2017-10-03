@@ -42,10 +42,10 @@ class ActiviteMigration extends AbstractMigration{
 		$sEntityName = 'Activite';
 
 		$oTable = $this->table($sEntityName, array('signed' => false));
-		$oTable->addColumn('fkiOrganisationId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('sNom', MysqlAdapter::PHINX_TYPE_TEXT)
-				->addColumn('sDescription', MysqlAdapter::PHINX_TYPE_TEXT)
-				->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false))
+		$oTable->addColumn('fkiOrganisationId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('sNom', MysqlAdapter::PHINX_TYPE_TEXT, ['null' => true])
+				->addColumn('sDescription', MysqlAdapter::PHINX_TYPE_TEXT, ['null' => true])
+				->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false, 'null' => true))
 				->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 				->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
 				->addIndex('bDeleted', array('name' => 'idx_deleted'))
@@ -61,18 +61,19 @@ class ActiviteMigration extends AbstractMigration{
 		$sEntityName = 'ActiviteLieu';
 
 		$oTable = $this->table($sEntityName, array('signed' => false));
-		$oTable->addColumn('fkiActiviteId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('sAdresseDescription', MysqlAdapter::PHINX_TYPE_TEXT)
-				->addColumn('sAdresseNumeroCivique', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 15))
-				->addColumn('sAdressePorte', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10))
-				->addColumn('sAdresseRue', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 100))
-				->addColumn('sAdresseVille', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 100))
-				->addColumn('sAdresseProvince', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 2))
-				->addColumn('sAdressePays', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 3))
-				->addColumn('sAdresseCodePostal', MysqlAdapter::PHINX_TYPE_STRING, array('length' => 6))
-				->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false))
-				->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
-				->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+		$oTable->addColumn('fkiActiviteId',             MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('sAdresseDescription',      MysqlAdapter::PHINX_TYPE_TEXT, ['null' => true])
+				->addColumn('sAdresseNumeroCivique',    MysqlAdapter::PHINX_TYPE_STRING, array('length' => 15,  'null' => true))
+				->addColumn('sAdressePorte',            MysqlAdapter::PHINX_TYPE_STRING, array('length' => 10,  'null' => true))
+				->addColumn('sAdresseRue',              MysqlAdapter::PHINX_TYPE_STRING, array('length' => 100, 'null' => true))
+				->addColumn('sAdresseVille',            MysqlAdapter::PHINX_TYPE_STRING, array('length' => 100, 'null' => true))
+				->addColumn('sAdresseProvince',         MysqlAdapter::PHINX_TYPE_STRING, array('length' => 2,   'null' => true))
+				->addColumn('sAdressePays',             MysqlAdapter::PHINX_TYPE_STRING, array('length' => 3,   'null' => true))
+				->addColumn('sAdresseCodePostal',       MysqlAdapter::PHINX_TYPE_STRING, array('length' => 6,   'null' => true))
+				->addColumn('bDeleted',                 MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false, 'null' => true))
+				->addColumn('iCreation',                MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iModification',            MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+			
 				->addIndex('bDeleted', array('name' => 'idx_deleted'))
 				->addIndex('fkiActiviteId', array('name' => 'idx_activite'))
 				->create();
@@ -86,14 +87,15 @@ class ActiviteMigration extends AbstractMigration{
 		$sEntityName = 'ActivitePlage';
 
 		$oTable = $this->table($sEntityName, array('signed' => false));
-		$oTable->addColumn('fkiActiviteLieuId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('iDateDebut', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('iDateFin', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('iNombrePlace', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('iActiviteRecurrenceType', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false))
-				->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
-				->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+		$oTable->addColumn('fkiActiviteLieuId',         MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iDateDebut',               MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iDateFin',                 MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iNombrePlace',             MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iActiviteRecurrenceType',  MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('bDeleted',                 MysqlAdapter::PHINX_TYPE_BOOLEAN,     array('signed' => false, 'null' => true))
+				->addColumn('iCreation',                MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iModification',            MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+			
 				->addIndex('bDeleted', array('name' => 'idx_deleted'))
 				->addIndex('fkiActiviteLieuId', array('name' => 'idx_activite_lieu'))
 				->create();
@@ -107,13 +109,14 @@ class ActiviteMigration extends AbstractMigration{
 		$sEntityName = 'ActiviteReservation';
 
 		$oTable = $this->table($sEntityName, array('signed' => false));
-		$oTable->addColumn('fkiOrganisationId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('fkiActivitePlageId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('fkiUserId', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('iActiviteReservationStatutType', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false))
-				->addColumn('bDeleted', MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false))
-				->addColumn('iCreation', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
-				->addColumn('iModification', MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+		$oTable->addColumn('fkiOrganisationId',                 MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('fkiActivitePlageId',               MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('fkiUserId',                        MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iActiviteReservationStatutType',   MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('bDeleted',                         MysqlAdapter::PHINX_TYPE_BOOLEAN, array('signed' => false,     'null' => true))
+				->addColumn('iCreation',                        MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+				->addColumn('iModification',                    MysqlAdapter::PHINX_TYPE_BIG_INTEGER, array('signed' => false, 'null' => true))
+			
 				->addIndex('bDeleted', array('name' => 'idx_deleted'))
 				->addIndex('fkiOrganisationId', array('name' => 'idx_organisation'))
 				->addIndex('fkiActivitePlageId', array('name' => 'idx_activite_plage'))

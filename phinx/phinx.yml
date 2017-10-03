@@ -9,7 +9,7 @@ environments:
     dev:
         adapter: mysql
         host: localhost
-        name: BCITI
+        name: bciti
         user: root
         pass: 'root'
         port: 3306

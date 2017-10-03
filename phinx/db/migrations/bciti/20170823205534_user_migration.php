@@ -140,7 +140,7 @@ class UserMigration extends AbstractMigration
 	
 	private function vCreateUserIdentifiant(){
 		
-		$this->table('UserIdentification', [ 'id'=> false, 'primary_key' => [ 'id' ] ] )
+		$this->table('UserIdentifiant', [ 'id'=> false, 'primary_key' => [ 'id' ] ] )
 			->addColumn('id',                       'biginteger',   [ 'identity'  => true ] )
 			
 			->addColumn('fkiUserId',                    'biginteger',   [ 'null'    => true   ] )
