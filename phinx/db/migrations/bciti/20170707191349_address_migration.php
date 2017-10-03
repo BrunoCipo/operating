@@ -35,15 +35,15 @@ class AddressMigration extends AbstractMigration{
 	 */
 	public function change(){
 
-//		$this->CreateCountryTables();
-//		$this->CreateCountryConfigTable();
-//		$this->CreateRegionTables();
-//		$this->CreatePostalCodeTables();
-//		$this->CreateCityTables();
+		$this->CreateCountryTables();
+		$this->CreateCountryConfigTable();
+		$this->CreateRegionTables();
+		$this->CreatePostalCodeTables();
+		$this->CreateCityTables();
 		$this->CreateCityConfigTable();
-//		$this->CreateStreetTables();
-//		$this->CreateStreetNumberTables();
-//		$this->CreateAddressTable();
+		$this->CreateStreetTables();
+		$this->CreateStreetNumberTables();
+		$this->CreateAddressTable();
 	}
 
 	/**
